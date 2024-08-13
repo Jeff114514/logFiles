@@ -7,219 +7,219 @@ Updating test list for fixtures
 Added 0 tests to meet fixture requirements
 Checking test dependency graph...
 Checking test dependency graph end
-test 1881
-    Start 1881: test_multiclass_nms_op
+test 1880
+    Start 1880: test_multiclass_nms_op
 
-1881: Test command: /home/cmake-3.18.0-Linux-x86_64/bin/cmake "-E" "env" "PYTHONPATH=/home/code/Paddle/build/python" "/usr/bin/python" "/home/code/Paddle/tools/test_runner.py" "test_multiclass_nms_op"
-1881: Test timeout computed to be: 120
-1881: grep: warning: GREP_OPTIONS is deprecated; please use an alias or script
-1881: WARNING: Logging before InitGoogleLogging() is written to STDERR
-1881: I0812 16:49:19.107084  4893 dynamic_loader.cc:176] Set paddle lib path : /usr/local/lib/python3.9/dist-packages/paddle/libs
-1881: I0812 16:49:19.896946  4893 init.cc:100] Before Parse: argc is 2, Init commandline: dummy --tryfromenv=win_cuda_bin_dir,gpugraph_enable_print_op_debug,nccl_blocking_wait,accuracy_check_atol_bf16,graph_embedding_split_infer_mode,apply_pass_to_program,dygraph_debug,print_allocator_trace_info,prim_enable_dynamic,accuracy_check_rtol_fp32,gpugraph_force_device_batch_num_equal,check_nan_inf,inner_op_parallelism,reallocate_gpu_memory_in_mb,lapack_dir,eager_delete_tensor_gb,use_auto_growth_v2,graph_load_in_parallel,graph_metapath_split_opt,cusparselt_dir,tracer_onednn_ops_on,new_executor_static_build,prim_skip_dynamic,enable_gpu_memory_usage_log,run_kp_kernel,gpu_allocator_retry_time,tracer_onednn_ops_off,enable_record_memory,gpugraph_enable_segment_merge_grads,enable_adjust_op_order,cusolver_dir,cublas_dir,gpugraph_slot_feasign_max_num,init_allocated_mem,add_dependency_for_communication_op,use_cuda_managed_memory,allocator_strategy,graph_neighbor_size_percent,gpugraph_parallel_copyer_split_maxsize,use_auto_growth_pinned_allocator,alloc_fill_value,gpugraph_sparse_table_storage_mode,accuracy_check_rtol_fp16,fraction_of_cuda_pinned_memory_to_use,npu_storage_format,pir_debug,disable_dyshape_in_train,print_ir,use_system_allocator,call_stack_level,enable_all2all_use_fp16,paddle_num_threads,enable_pir_api,fuse_parameter_groups_size,use_fast_math,get_host_by_name_time,enable_interpretercore_launch_cinn,cinn_compile_thread_num,enable_graph_multi_node_sampling,pir_subgraph_saving_dir,benchmark,enable_tracker_all2all,mklml_dir,logging_trunc_pir_py_code,allreduce_record_one_event,max_inplace_grad_add,set_to_1d,prim_forward_blacklist,eager_delete_scope,enable_unused_var_check,cse_max_count,cusparse_dir,local_exe_sub_scope_limit,benchmark_nccl,sort_sum_gradient,use_virtual_memory_auto_growth,use_autotune,gpugraph_dedup_pull_push_mode,gpugraph_enable_hbm_table_collision_stat,gpugraph_storage_mode,enable_api_kernel_fallback,check_kernel_launch,pir_apply_shape_optimization_pass,accuracy_check_atol_fp32,op_dir,cudnn_dir,reader_queue_speed_test_mode,check_infer_symbolic,gpugraph_hbm_table_load_factor,save_static_runtime_data,use_cinn,gpugraph_offload_gather_copy_maxsize,all_blocks_convert_trt,enable_sparse_inner_gather,host_trace_level,gemm_use_half_precision_compute_type,cublaslt_exhaustive_search_times,cudnn_exhaustive_search,enable_cublas_tensor_op_math,prim_check_ops,pir_apply_inplace_pass,fuse_parameter_memory_size,selected_gpus,cuda_memory_async_pool_realease_threshold,use_pinned_memory,enable_collect_shape,tensor_operants_mode,prim_backward,cinn_subgraph_graphviz_dir,cublaslt_device_best_config,multiple_of_cupti_buffer_size,gpugraph_offload_param_extends,free_idle_chunk,executor_log_deps_every_microseconds,graph_get_neighbor_id,logging_pir_py_code_dir,enable_cinn_auto_tune,auto_growth_chunk_size_in_mb,use_stride_kernel,gpugraph_parallel_stream_num,dist_threadpool_size,enable_pir_in_executor,sync_nccl_allreduce,initial_cpu_memory_in_mb,free_when_no_cache_hit,fraction_of_cpu_memory_to_use,gpugraph_offload_param_stat,prim_all,enable_exit_when_partial_worker,enable_pir_with_pt_in_dy2st,enable_gpu_memory_usage_log_mb,curand_dir,log_memory_stats,cuda_dir,pir_broadcast_tree_limit,multi_node_sample_use_gpu_table,conv2d_disable_cudnn,pinned_memory_as_cpu_backend,use_xqa_optim,cudnn_exhaustive_search_times,enable_opt_get_features,logging_pir_py_code_dump_symbolic_dims,accuracy_check_atol_fp16,cuda_malloc_async_pool_memory_throttle_ratio,check_nan_inf_level,new_executor_serial_run,query_dest_rank_by_multi_node,mkl_dir,cudnn_batchnorm_spatial_persistent,use_shm_cache,manually_trans_conv_filter,tensorrt_dir,deny_cinn_ops,custom_device_mem_record,gpugraph_merge_grads_segment_size,new_executor_use_inplace,logging_pir_py_code_int_tensor_element_limit,cudnn_deterministic,use_cuda_malloc_async_allocator,dynamic_static_unified_comm,initial_gpu_memory_in_mb,dump_chunk_info,gpugraph_load_node_list_into_hbm,enable_pir_in_executor_trace_run,trt_ibuilder_cache,low_precision_op_list,gpu_memory_limit_mb,print_sub_graph_dir,accuracy_check_rtol_bf16,fleet_executor_with_standalone,static_runtime_data_save_path,new_executor_sequential_run,cupti_dir,cache_inference_while_scope,gpugraph_debug_gpu_memory,use_mkldnn,new_executor_use_local_scope,embedding_deterministic,enable_blaslt_global_search,tracer_profile_fname,enable_neighbor_list_use_uva,conv_workspace_size_limit,dataloader_use_file_descriptor,auto_free_cudagraph_allocations_on_launch,enable_auto_rdma_trans,einsum_opt,prim_forward,use_stream_safe_cuda_allocator,enable_async_trace,fast_eager_deletion_mode,memory_fraction_of_eager_deletion,enable_cinn_accuracy_check,nvidia_package_dir,enable_cse_in_dy2st,enable_dump_main_program,enable_fuse_parallel_matmul_pass,convert_all_blocks,nccl_dir,enable_cinn_compile_cache,ir_inplace_kernel_blacklist,async_trace_count,jit_engine_type,new_executor_use_cuda_graph,prim_enabled,enable_fusion_fallback,static_executor_perfstat_filepath,sync_after_alloc,fraction_of_gpu_memory_to_use,gpugraph_enable_gpu_direct_access,search_cache_max_number,enable_dependency_builder_debug_info,enable_auto_detect_gpu_topo,allow_cinn_ops 
-1881: I0812 16:49:19.897051  4893 init.cc:108] After Parse: argc is 2
-1881: I0812 16:49:28.948387  4893 op_desc.cc:1111] CompileTime infer shape on multiclass_nms3
-1881: I0812 16:49:28.948467  4893 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
-1881: I0812 16:49:28.948669  4893 op_desc.cc:1111] CompileTime infer shape on multiclass_nms3
-1881: I0812 16:49:28.948683  4893 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
-1881: I0812 16:49:28.949484  4893 allocator_facade.cc:212] selected allocator strategy:1
-1881: I0812 16:49:28.950062  4893 dynamic_loader.cc:226] Try to find library: libcuda.so from default system path.
-1881: I0812 16:49:28.955763  4893 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1881: I0812 16:49:28.956291  4893 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1881: I0812 16:49:28.956820  4893 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1881: I0812 16:49:28.957882  4893 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1881: I0812 16:49:28.957902  4893 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1881: I0812 16:49:28.957919  4893 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1881: I0812 16:49:28.961588  4893 feed_fetch_method.cc:53] SetFeedVariable name=feed index=1
-1881: I0812 16:49:28.961614  4893 scope.cc:202] Create variable feed
-1881: I0812 16:49:28.961683  4893 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
-1881: I0812 16:49:28.961781  4893 program_interpreter.cc:243] New Executor is Running.
-1881: I0812 16:49:28.961792  4893 interpreter_util.cc:1169] Creating Variables
-1881: I0812 16:49:28.961799  4893 scope.cc:202] Create variable BBoxes
-1881: I0812 16:49:28.961812  4893 interpreter_util.cc:1206] Create Variable BBoxes locally, which pointer is 0x19b2bba0 type is 7
-1881: I0812 16:49:28.961824  4893 scope.cc:202] Create variable Index
-1881: I0812 16:49:28.961830  4893 interpreter_util.cc:1206] Create Variable Index locally, which pointer is 0x19833800 type is 7
-1881: I0812 16:49:28.961836  4893 scope.cc:202] Create variable NmsRoisNum
-1881: I0812 16:49:28.961843  4893 interpreter_util.cc:1206] Create Variable NmsRoisNum locally, which pointer is 0x1995b5b0 type is 7
-1881: I0812 16:49:28.961848  4893 scope.cc:202] Create variable Out
-1881: I0812 16:49:28.961853  4893 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x2b8e010 type is 7
-1881: I0812 16:49:28.961860  4893 scope.cc:202] Create variable Scores
-1881: I0812 16:49:28.961865  4893 interpreter_util.cc:1206] Create Variable Scores locally, which pointer is 0x19791970 type is 7
-1881: I0812 16:49:28.961869  4893 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x19c817a0 type is 9
-1881: I0812 16:49:28.961875  4893 scope.cc:202] Create variable fetch
-1881: I0812 16:49:28.961881  4893 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x20e29b0 type is 10
-1881: I0812 16:49:28.962003  4893 interpreter_util.cc:594] Static build: 0
-1881: I0812 16:49:28.962011  4893 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1881: I0812 16:49:28.962018  4893 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1881: I0812 16:49:28.962023  4893 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1881: I0812 16:49:28.962231  4893 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:28.962260  4893 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:28.962419  4893 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:28.962431  4893 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:28.962502  4893 operator.cc:2295] op type:multiclass_nms3, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:28.962513  4893 interpreter_util.cc:844] multiclass_nms3 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:28.962535  4893 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
-1881: I0812 16:49:29.013304  4893 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.013325  4893 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.013371  4893 fetch_v2_op.cc:138] Fetch variable Out's 0 column.
-1881: I0812 16:49:29.013458  4893 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.013470  4893 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.013491  4893 fetch_v2_op.cc:138] Fetch variable Index's 1 column.
-1881: I0812 16:49:29.013536  4893 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.013546  4893 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.013561  4893 fetch_v2_op.cc:138] Fetch variable NmsRoisNum's 2 column.
-1881: I0812 16:49:29.013971  4893 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
-1881: I0812 16:49:29.014169  4893 onednn_context.cc:104] Clearing DNNL cache.
-1881: I0812 16:49:29.014178  4893 onednn_context.cc:122] Resetting Paddle data layout to NCHW.
-1881: I0812 16:49:29.014307  4893 onednn_context.cc:104] Clearing DNNL cache.
-1881: I0812 16:49:29.014314  4893 onednn_context.cc:122] Resetting Paddle data layout to NCHW.
-1881: I0812 16:49:29.016538  4893 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x19af3d00 for it.
-1881: I0812 16:49:29.016662  4893 eager.cc:133] Tensor(generated_tensor_1) have not GradNode, add GradNodeAccumulation0x19b8e3f0 for it.
-1881: I0812 16:49:29.017534  4893 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x19bd2e60 for it.
-1881: I0812 16:49:29.017614  4893 eager.cc:133] Tensor(Index_out_0) have not GradNode, add GradNodeAccumulation0x19bca9b0 for it.
-1881: I0812 16:49:29.017661  4893 eager.cc:133] Tensor(NmsRoisNum_out_0) have not GradNode, add GradNodeAccumulation0x19c7e910 for it.
-1881: I0812 16:49:29.018854  4893 dygraph_functions.cc:53657] Running AD API: multiclass_nms3
-1881: I0812 16:49:29.018942  4893 dygraph_functions.cc:53728] { Input: [ 
-1881: ( bboxes , [[ Not specified tensor log level ]]),  
-1881: ( scores , [[ Not specified tensor log level ]]),  
-1881: ( rois_num , [{ UnDefinedTensor }]), ]} 
-1881: I0812 16:49:29.094698  4893 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x19af3d00 for it.
-1881: I0812 16:49:29.094808  4893 eager.cc:133] Tensor(generated_tensor_1) have not GradNode, add GradNodeAccumulation0x19b8e3f0 for it.
-1881: I0812 16:49:29.095861  4893 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x19c7e910 for it.
-1881: I0812 16:49:29.095927  4893 eager.cc:133] Tensor(Index_out_0) have not GradNode, add GradNodeAccumulation0x19bca9b0 for it.
-1881: I0812 16:49:29.095970  4893 eager.cc:133] Tensor(NmsRoisNum_out_0) have not GradNode, add GradNodeAccumulation0x19bd2e60 for it.
-1881: I0812 16:49:29.449801  4893 op_desc.cc:1111] CompileTime infer shape on multiclass_nms3
-1881: I0812 16:49:29.449839  4893 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
-1881: I0812 16:49:29.449932  4893 op_desc.cc:1111] CompileTime infer shape on multiclass_nms3
-1881: I0812 16:49:29.449946  4893 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
-1881: I0812 16:49:29.453205  4893 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1881: I0812 16:49:29.453805  4893 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1881: I0812 16:49:29.454385  4893 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1881: I0812 16:49:29.454998  4893 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1881: I0812 16:49:29.455015  4893 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1881: I0812 16:49:29.455022  4893 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1881: I0812 16:49:29.458432  4893 feed_fetch_method.cc:53] SetFeedVariable name=feed index=1
-1881: I0812 16:49:29.458499  4893 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
-1881: I0812 16:49:29.458542  4893 interpreter_util.cc:1169] Creating Variables
-1881: I0812 16:49:29.458555  4893 scope.cc:202] Create variable BBoxes
-1881: I0812 16:49:29.458566  4893 interpreter_util.cc:1206] Create Variable BBoxes locally, which pointer is 0x1b1c12f0 type is 7
-1881: I0812 16:49:29.458578  4893 scope.cc:202] Create variable Index
-1881: I0812 16:49:29.458585  4893 interpreter_util.cc:1206] Create Variable Index locally, which pointer is 0x1b1c1380 type is 7
-1881: I0812 16:49:29.458592  4893 scope.cc:202] Create variable NmsRoisNum
-1881: I0812 16:49:29.458597  4893 interpreter_util.cc:1206] Create Variable NmsRoisNum locally, which pointer is 0x1b1c1cd0 type is 7
-1881: I0812 16:49:29.458606  4893 scope.cc:202] Create variable Out
-1881: I0812 16:49:29.458611  4893 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x1b1c2630 type is 7
-1881: I0812 16:49:29.458618  4893 scope.cc:202] Create variable Scores
-1881: I0812 16:49:29.458624  4893 interpreter_util.cc:1206] Create Variable Scores locally, which pointer is 0x1b1c13f0 type is 7
-1881: I0812 16:49:29.458629  4893 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x19c817a0 type is 9
-1881: I0812 16:49:29.458636  4893 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x20e29b0 type is 10
-1881: I0812 16:49:29.458740  4893 interpreter_util.cc:594] Static build: 0
-1881: I0812 16:49:29.458748  4893 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1881: I0812 16:49:29.458755  4893 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1881: I0812 16:49:29.458760  4893 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1881: I0812 16:49:29.458832  4893 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.458849  4893 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.458933  4893 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.458945  4893 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.459002  4893 operator.cc:2295] op type:multiclass_nms3, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.459014  4893 interpreter_util.cc:844] multiclass_nms3 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.459036  4893 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
-1881: I0812 16:49:29.459592  4893 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.459609  4893 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.459632  4893 fetch_v2_op.cc:138] Fetch variable Out's 0 column.
-1881: I0812 16:49:29.459656  4893 tensor_util.cc:318] Skip copy the same data from Place(cpu) to Place(cpu)
-1881: I0812 16:49:29.459684  4893 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.459695  4893 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.459713  4893 fetch_v2_op.cc:138] Fetch variable Index's 1 column.
-1881: I0812 16:49:29.459728  4893 tensor_util.cc:318] Skip copy the same data from Place(cpu) to Place(cpu)
-1881: I0812 16:49:29.459760  4893 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.459771  4893 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1881: I0812 16:49:29.459789  4893 fetch_v2_op.cc:138] Fetch variable NmsRoisNum's 2 column.
-1881: I0812 16:49:29.460057  4893 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
-1881: I0812 16:49:29.460214  4893 onednn_context.cc:104] Clearing DNNL cache.
-1881: I0812 16:49:29.460225  4893 onednn_context.cc:122] Resetting Paddle data layout to NCHW.
-1881: I0812 16:49:29.460335  4893 onednn_context.cc:104] Clearing DNNL cache.
-1881: I0812 16:49:29.460343  4893 onednn_context.cc:122] Resetting Paddle data layout to NCHW.
-1881: I0812 16:49:29.461524  4893 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x19bd2e60 for it.
-1881: I0812 16:49:29.461683  4893 eager.cc:133] Tensor(generated_tensor_1) have not GradNode, add GradNodeAccumulation0x19bca9b0 for it.
-1881: I0812 16:49:29.462160  4893 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x19c7e910 for it.
-1881: I0812 16:49:29.462224  4893 eager.cc:133] Tensor(Index_out_0) have not GradNode, add GradNodeAccumulation0x19b8e3f0 for it.
-1881: I0812 16:49:29.462267  4893 eager.cc:133] Tensor(NmsRoisNum_out_0) have not GradNode, add GradNodeAccumulation0x19af3d00 for it.
-1881: I0812 16:49:29.462956  4893 dygraph_functions.cc:53657] Running AD API: multiclass_nms3
-1881: I0812 16:49:29.463004  4893 dygraph_functions.cc:53728] { Input: [ 
-1881: ( bboxes , [[ Not specified tensor log level ]]),  
-1881: ( scores , [[ Not specified tensor log level ]]),  
-1881: ( rois_num , [{ UnDefinedTensor }]), ]} 
-1881: I0812 16:49:29.465626  4893 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x19bd2e60 for it.
-1881: I0812 16:49:29.465729  4893 eager.cc:133] Tensor(generated_tensor_1) have not GradNode, add GradNodeAccumulation0x19bca9b0 for it.
-1881: I0812 16:49:29.466194  4893 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x19af3d00 for it.
-1881: I0812 16:49:29.466255  4893 eager.cc:133] Tensor(Index_out_0) have not GradNode, add GradNodeAccumulation0x19b8e3f0 for it.
-1881: I0812 16:49:29.466297  4893 eager.cc:133] Tensor(NmsRoisNum_out_0) have not GradNode, add GradNodeAccumulation0x19c7e910 for it.
-1881: test_multiclass_nms_op failed
-1881:  .EE
-1881: ======================================================================
-1881: ERROR: test_check_output (test_multiclass_nms_op.TestMulticlassNMS3Op)
-1881: ----------------------------------------------------------------------
-1881: Traceback (most recent call last):
-1881:   File "/home/code/Paddle/build/test/legacy_test/test_multiclass_nms_op.py", line 460, in test_check_output
-1881:     self.check_output_with_place(place, check_pir=True)
-1881:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2778, in check_output_with_place
-1881:     symbol_checker.check()
-1881:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2637, in check
-1881:     self.infer_and_compare_symbol()
-1881:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2645, in infer_and_compare_symbol
-1881:     self.op_test._infer_and_compare_symbol(place)
-1881:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 1679, in _infer_and_compare_symbol
-1881:     ret_tuple = self.python_api(*args)
-1881:   File "/home/code/Paddle/build/test/legacy_test/test_multiclass_nms_op.py", line 75, in multiclass_nms3
-1881:     helper.append_op(
-1881:   File "/home/code/Paddle/build/python/paddle/base/layer_helper.py", line 56, in append_op
-1881:     return self.main_program.current_block().append_op(*args, **kwargs)
-1881:   File "/home/code/Paddle/build/python/paddle/base/framework.py", line 4665, in append_op
-1881:     op = Operator(
-1881:   File "/home/code/Paddle/build/python/paddle/base/framework.py", line 3289, in __init__
-1881:     raise TypeError(
-1881: TypeError: The type of '%BBoxes' in operator multiclass_nms3 should be one of [str, bytes, Variable]. but received : Value(define_op_name=pd_op.data, index=0, dtype=builtin.tensor<7x1200x4xf32>, stop_gradient=True)
-1881: 
-1881: ======================================================================
-1881: ERROR: test_check_output (test_multiclass_nms_op.TestMulticlassNMS3OpNoOutput)
-1881: ----------------------------------------------------------------------
-1881: Traceback (most recent call last):
-1881:   File "/home/code/Paddle/build/test/legacy_test/test_multiclass_nms_op.py", line 460, in test_check_output
-1881:     self.check_output_with_place(place, check_pir=True)
-1881:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2778, in check_output_with_place
-1881:     symbol_checker.check()
-1881:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2637, in check
-1881:     self.infer_and_compare_symbol()
-1881:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2645, in infer_and_compare_symbol
-1881:     self.op_test._infer_and_compare_symbol(place)
-1881:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 1679, in _infer_and_compare_symbol
-1881:     ret_tuple = self.python_api(*args)
-1881:   File "/home/code/Paddle/build/test/legacy_test/test_multiclass_nms_op.py", line 75, in multiclass_nms3
-1881:     helper.append_op(
-1881:   File "/home/code/Paddle/build/python/paddle/base/layer_helper.py", line 56, in append_op
-1881:     return self.main_program.current_block().append_op(*args, **kwargs)
-1881:   File "/home/code/Paddle/build/python/paddle/base/framework.py", line 4665, in append_op
-1881:     op = Operator(
-1881:   File "/home/code/Paddle/build/python/paddle/base/framework.py", line 3289, in __init__
-1881:     raise TypeError(
-1881: TypeError: The type of '%BBoxes' in operator multiclass_nms3 should be one of [str, bytes, Variable]. but received : Value(define_op_name=pd_op.data, index=0, dtype=builtin.tensor<7x1200x4xf32>, stop_gradient=True)
-1881: 
-1881: ----------------------------------------------------------------------
-1881: Ran 3 tests in 3.714s
-1881: 
-1881: FAILED (errors=2)
-1881: 
-1881: I0812 16:49:29.504115  4893 mmap_allocator.cc:348] PID: 4893, MemoryMapFdSet: set size - 0
-1881: I0812 16:49:29.513870  4893 mmap_allocator.cc:348] PID: 4893, MemoryMapFdSet: set size - 0
-1881: I0812 16:49:29.698618  4893 onednn_context.cc:104] Clearing DNNL cache.
-1881: I0812 16:49:29.698657  4893 onednn_context.cc:122] Resetting Paddle data layout to NCHW.
-1881: I0812 16:49:29.698700  4893 mmap_allocator.cc:348] PID: 4893, MemoryMapFdSet: set size - 0
-1/1 Test #1881: test_multiclass_nms_op ...........***Failed   11.42 sec
+1880: Test command: /home/cmake-3.18.0-Linux-x86_64/bin/cmake "-E" "env" "PYTHONPATH=/home/code/Paddle/build/python" "/usr/bin/python" "/home/code/Paddle/tools/test_runner.py" "test_multiclass_nms_op"
+1880: Test timeout computed to be: 120
+1880: grep: warning: GREP_OPTIONS is deprecated; please use an alias or script
+1880: WARNING: Logging before InitGoogleLogging() is written to STDERR
+1880: I0813 03:30:38.579376 23671 dynamic_loader.cc:176] Set paddle lib path : /usr/local/lib/python3.9/dist-packages/paddle/libs
+1880: I0813 03:30:39.366433 23671 init.cc:100] Before Parse: argc is 2, Init commandline: dummy --tryfromenv=pir_debug,enable_pir_with_pt_in_dy2st,dump_chunk_info,auto_growth_chunk_size_in_mb,enable_all2all_use_fp16,apply_pass_to_program,win_cuda_bin_dir,gpugraph_dedup_pull_push_mode,cinn_subgraph_graphviz_dir,prim_forward_blacklist,enable_graph_multi_node_sampling,cache_inference_while_scope,pir_subgraph_saving_dir,check_kernel_launch,prim_enabled,print_allocator_trace_info,deny_cinn_ops,conv_workspace_size_limit,curand_dir,low_precision_op_list,search_cache_max_number,cudnn_exhaustive_search,enable_auto_detect_gpu_topo,enable_api_kernel_fallback,cublaslt_exhaustive_search_times,logging_trunc_pir_py_code,reader_queue_speed_test_mode,use_cuda_managed_memory,prim_enable_dynamic,conv2d_disable_cudnn,accuracy_check_atol_fp32,enable_fuse_parallel_matmul_pass,nccl_dir,embedding_deterministic,enable_adjust_op_order,dygraph_debug,gpugraph_enable_gpu_direct_access,gpugraph_offload_gather_copy_maxsize,use_shm_cache,graph_neighbor_size_percent,pir_apply_inplace_pass,get_host_by_name_time,trt_ibuilder_cache,query_dest_rank_by_multi_node,enable_blaslt_global_search,use_auto_growth_v2,gpugraph_offload_param_stat,gpugraph_parallel_copyer_split_maxsize,run_kp_kernel,dynamic_static_unified_comm,sort_sum_gradient,use_pinned_memory,logging_pir_py_code_dir,dist_threadpool_size,enable_gpu_memory_usage_log_mb,cublas_dir,use_cinn,set_to_1d,enable_cinn_auto_tune,enable_auto_rdma_trans,new_executor_sequential_run,gpugraph_debug_gpu_memory,free_when_no_cache_hit,gpugraph_enable_hbm_table_collision_stat,use_stream_safe_cuda_allocator,tracer_onednn_ops_on,gpugraph_hbm_table_load_factor,enable_unused_var_check,static_runtime_data_save_path,cupti_dir,save_static_runtime_data,gpu_allocator_retry_time,convert_all_blocks,prim_check_ops,pinned_memory_as_cpu_backend,cudnn_batchnorm_spatial_persistent,cudnn_dir,use_mkldnn,cusparse_dir,cinn_compile_thread_num,all_blocks_convert_trt,inner_op_parallelism,accuracy_check_atol_bf16,local_exe_sub_scope_limit,host_trace_level,use_stride_kernel,call_stack_level,auto_free_cudagraph_allocations_on_launch,enable_cinn_compile_cache,allow_cinn_ops,gpugraph_force_device_batch_num_equal,memory_fraction_of_eager_deletion,mklml_dir,use_autotune,executor_log_deps_every_microseconds,allocator_strategy,use_xqa_optim,mkl_dir,enable_fusion_fallback,alloc_fill_value,paddle_num_threads,async_trace_count,gpugraph_enable_print_op_debug,lapack_dir,nccl_blocking_wait,max_inplace_grad_add,new_executor_use_inplace,enable_neighbor_list_use_uva,new_executor_use_cuda_graph,gpugraph_merge_grads_segment_size,graph_metapath_split_opt,fast_eager_deletion_mode,enable_interpretercore_launch_cinn,allreduce_record_one_event,accuracy_check_rtol_fp16,eager_delete_tensor_gb,graph_get_neighbor_id,cudnn_exhaustive_search_times,enable_dependency_builder_debug_info,multiple_of_cupti_buffer_size,enable_cse_in_dy2st,use_fast_math,new_executor_static_build,enable_exit_when_partial_worker,print_ir,enable_cinn_accuracy_check,gpugraph_offload_param_extends,initial_cpu_memory_in_mb,check_nan_inf,fuse_parameter_groups_size,selected_gpus,tensor_operants_mode,logging_pir_py_code_int_tensor_element_limit,enable_pir_in_executor,enable_gpu_memory_usage_log,add_dependency_for_communication_op,enable_pir_in_executor_trace_run,npu_storage_format,log_memory_stats,use_auto_growth_pinned_allocator,cusparselt_dir,cusolver_dir,enable_cublas_tensor_op_math,gpugraph_parallel_stream_num,enable_collect_shape,prim_backward,enable_async_trace,benchmark_nccl,tensorrt_dir,jit_engine_type,fleet_executor_with_standalone,prim_forward,pir_apply_shape_optimization_pass,new_executor_use_local_scope,print_sub_graph_dir,reallocate_gpu_memory_in_mb,gpugraph_sparse_table_storage_mode,cse_max_count,accuracy_check_atol_fp16,free_idle_chunk,ir_inplace_kernel_blacklist,accuracy_check_rtol_fp32,gpugraph_load_node_list_into_hbm,gpugraph_storage_mode,dataloader_use_file_descriptor,use_cuda_malloc_async_allocator,einsum_opt,enable_record_memory,new_executor_serial_run,graph_embedding_split_infer_mode,gpu_memory_limit_mb,fraction_of_gpu_memory_to_use,logging_pir_py_code_dump_symbolic_dims,enable_dump_main_program,check_infer_symbolic,graph_load_in_parallel,gemm_use_half_precision_compute_type,tracer_profile_fname,cublaslt_device_best_config,op_dir,gpugraph_enable_segment_merge_grads,fraction_of_cpu_memory_to_use,enable_sparse_inner_gather,prim_all,multi_node_sample_use_gpu_table,disable_dyshape_in_train,enable_opt_get_features,pir_broadcast_tree_limit,fraction_of_cuda_pinned_memory_to_use,cuda_dir,static_executor_perfstat_filepath,initial_gpu_memory_in_mb,enable_pir_api,manually_trans_conv_filter,use_system_allocator,prim_skip_dynamic,enable_tracker_all2all,accuracy_check_rtol_bf16,check_nan_inf_level,eager_delete_scope,custom_device_mem_record,nvidia_package_dir,sync_nccl_allreduce,cudnn_deterministic,fuse_parameter_memory_size,cuda_malloc_async_pool_memory_throttle_ratio,init_allocated_mem,benchmark,tracer_onednn_ops_off,sync_after_alloc,use_virtual_memory_auto_growth,gpugraph_slot_feasign_max_num,cuda_memory_async_pool_realease_threshold 
+1880: I0813 03:30:39.366545 23671 init.cc:108] After Parse: argc is 2
+1880: I0813 03:30:49.279603 23671 op_desc.cc:1111] CompileTime infer shape on multiclass_nms3
+1880: I0813 03:30:49.279670 23671 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
+1880: I0813 03:30:49.279834 23671 op_desc.cc:1111] CompileTime infer shape on multiclass_nms3
+1880: I0813 03:30:49.279842 23671 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
+1880: I0813 03:30:49.280607 23671 allocator_facade.cc:212] selected allocator strategy:1
+1880: I0813 03:30:49.281098 23671 dynamic_loader.cc:226] Try to find library: libcuda.so from default system path.
+1880: I0813 03:30:49.286543 23671 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1880: I0813 03:30:49.287046 23671 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1880: I0813 03:30:49.287549 23671 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1880: I0813 03:30:49.288585 23671 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1880: I0813 03:30:49.288602 23671 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1880: I0813 03:30:49.288619 23671 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1880: I0813 03:30:49.292019 23671 feed_fetch_method.cc:53] SetFeedVariable name=feed index=1
+1880: I0813 03:30:49.292042 23671 scope.cc:202] Create variable feed
+1880: I0813 03:30:49.292106 23671 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
+1880: I0813 03:30:49.292187 23671 program_interpreter.cc:243] New Executor is Running.
+1880: I0813 03:30:49.292197 23671 interpreter_util.cc:1169] Creating Variables
+1880: I0813 03:30:49.292203 23671 scope.cc:202] Create variable BBoxes
+1880: I0813 03:30:49.292214 23671 interpreter_util.cc:1206] Create Variable BBoxes locally, which pointer is 0x1af3b320 type is 7
+1880: I0813 03:30:49.292225 23671 scope.cc:202] Create variable Index
+1880: I0813 03:30:49.292232 23671 interpreter_util.cc:1206] Create Variable Index locally, which pointer is 0x1a6b2ca0 type is 7
+1880: I0813 03:30:49.292235 23671 scope.cc:202] Create variable NmsRoisNum
+1880: I0813 03:30:49.292239 23671 interpreter_util.cc:1206] Create Variable NmsRoisNum locally, which pointer is 0x4134ef0 type is 7
+1880: I0813 03:30:49.292243 23671 scope.cc:202] Create variable Out
+1880: I0813 03:30:49.292248 23671 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x3f384c0 type is 7
+1880: I0813 03:30:49.292256 23671 scope.cc:202] Create variable Scores
+1880: I0813 03:30:49.292259 23671 interpreter_util.cc:1206] Create Variable Scores locally, which pointer is 0x1ab8efa0 type is 7
+1880: I0813 03:30:49.292263 23671 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x3c89790 type is 9
+1880: I0813 03:30:49.292268 23671 scope.cc:202] Create variable fetch
+1880: I0813 03:30:49.292271 23671 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x1ab33610 type is 10
+1880: I0813 03:30:49.292394 23671 interpreter_util.cc:594] Static build: 0
+1880: I0813 03:30:49.292402 23671 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1880: I0813 03:30:49.292407 23671 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1880: I0813 03:30:49.292410 23671 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1880: I0813 03:30:49.292603 23671 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.292630 23671 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.292762 23671 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.292771 23671 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.292832 23671 operator.cc:2295] op type:multiclass_nms3, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.292841 23671 interpreter_util.cc:844] multiclass_nms3 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.292860 23671 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
+1880: I0813 03:30:49.343537 23671 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.343557 23671 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.343592 23671 fetch_v2_op.cc:138] Fetch variable Out's 0 column.
+1880: I0813 03:30:49.343667 23671 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.343677 23671 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.343695 23671 fetch_v2_op.cc:138] Fetch variable Index's 1 column.
+1880: I0813 03:30:49.343726 23671 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.343734 23671 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.343745 23671 fetch_v2_op.cc:138] Fetch variable NmsRoisNum's 2 column.
+1880: I0813 03:30:49.344125 23671 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
+1880: I0813 03:30:49.344297 23671 onednn_context.cc:104] Clearing DNNL cache.
+1880: I0813 03:30:49.344314 23671 onednn_context.cc:122] Resetting Paddle data layout to NCHW.
+1880: I0813 03:30:49.344432 23671 onednn_context.cc:104] Clearing DNNL cache.
+1880: I0813 03:30:49.344439 23671 onednn_context.cc:122] Resetting Paddle data layout to NCHW.
+1880: I0813 03:30:49.346616 23671 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1ae1ac40 for it.
+1880: I0813 03:30:49.346731 23671 eager.cc:133] Tensor(generated_tensor_1) have not GradNode, add GradNodeAccumulation0x1adf7110 for it.
+1880: I0813 03:30:49.347854 23671 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1ae26a20 for it.
+1880: I0813 03:30:49.347925 23671 eager.cc:133] Tensor(Index_out_0) have not GradNode, add GradNodeAccumulation0x1b097de0 for it.
+1880: I0813 03:30:49.347965 23671 eager.cc:133] Tensor(NmsRoisNum_out_0) have not GradNode, add GradNodeAccumulation0x1b099680 for it.
+1880: I0813 03:30:49.349098 23671 dygraph_functions.cc:53657] Running AD API: multiclass_nms3
+1880: I0813 03:30:49.349174 23671 dygraph_functions.cc:53728] { Input: [ 
+1880: ( bboxes , [[ Not specified tensor log level ]]),  
+1880: ( scores , [[ Not specified tensor log level ]]),  
+1880: ( rois_num , [{ UnDefinedTensor }]), ]} 
+1880: I0813 03:30:49.423631 23671 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1ae1ac40 for it.
+1880: I0813 03:30:49.423735 23671 eager.cc:133] Tensor(generated_tensor_1) have not GradNode, add GradNodeAccumulation0x1adf7110 for it.
+1880: I0813 03:30:49.424775 23671 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1b099680 for it.
+1880: I0813 03:30:49.424830 23671 eager.cc:133] Tensor(Index_out_0) have not GradNode, add GradNodeAccumulation0x1b097de0 for it.
+1880: I0813 03:30:49.424865 23671 eager.cc:133] Tensor(NmsRoisNum_out_0) have not GradNode, add GradNodeAccumulation0x1ae26a20 for it.
+1880: I0813 03:30:49.719424 23671 op_desc.cc:1111] CompileTime infer shape on multiclass_nms3
+1880: I0813 03:30:49.719458 23671 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
+1880: I0813 03:30:49.719543 23671 op_desc.cc:1111] CompileTime infer shape on multiclass_nms3
+1880: I0813 03:30:49.719554 23671 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
+1880: I0813 03:30:49.723191 23671 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1880: I0813 03:30:49.723768 23671 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1880: I0813 03:30:49.724321 23671 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1880: I0813 03:30:49.724951 23671 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1880: I0813 03:30:49.724967 23671 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1880: I0813 03:30:49.724972 23671 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1880: I0813 03:30:49.728144 23671 feed_fetch_method.cc:53] SetFeedVariable name=feed index=1
+1880: I0813 03:30:49.728207 23671 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
+1880: I0813 03:30:49.728248 23671 interpreter_util.cc:1169] Creating Variables
+1880: I0813 03:30:49.728260 23671 scope.cc:202] Create variable BBoxes
+1880: I0813 03:30:49.728266 23671 interpreter_util.cc:1206] Create Variable BBoxes locally, which pointer is 0x1c5bb800 type is 7
+1880: I0813 03:30:49.728277 23671 scope.cc:202] Create variable Index
+1880: I0813 03:30:49.728283 23671 interpreter_util.cc:1206] Create Variable Index locally, which pointer is 0x1c5bbcd0 type is 7
+1880: I0813 03:30:49.728291 23671 scope.cc:202] Create variable NmsRoisNum
+1880: I0813 03:30:49.728294 23671 interpreter_util.cc:1206] Create Variable NmsRoisNum locally, which pointer is 0x1c5bc620 type is 7
+1880: I0813 03:30:49.728308 23671 scope.cc:202] Create variable Out
+1880: I0813 03:30:49.728315 23671 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x1c4cb580 type is 7
+1880: I0813 03:30:49.728322 23671 scope.cc:202] Create variable Scores
+1880: I0813 03:30:49.728325 23671 interpreter_util.cc:1206] Create Variable Scores locally, which pointer is 0x1c4cb7f0 type is 7
+1880: I0813 03:30:49.728330 23671 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x3c89790 type is 9
+1880: I0813 03:30:49.728338 23671 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x1ab33610 type is 10
+1880: I0813 03:30:49.728449 23671 interpreter_util.cc:594] Static build: 0
+1880: I0813 03:30:49.728456 23671 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1880: I0813 03:30:49.728462 23671 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1880: I0813 03:30:49.728468 23671 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1880: I0813 03:30:49.728535 23671 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.728551 23671 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.728626 23671 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.728637 23671 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.728689 23671 operator.cc:2295] op type:multiclass_nms3, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.728701 23671 interpreter_util.cc:844] multiclass_nms3 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.728721 23671 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
+1880: I0813 03:30:49.729277 23671 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.729291 23671 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.729321 23671 fetch_v2_op.cc:138] Fetch variable Out's 0 column.
+1880: I0813 03:30:49.729341 23671 tensor_util.cc:318] Skip copy the same data from Place(cpu) to Place(cpu)
+1880: I0813 03:30:49.729365 23671 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.729375 23671 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.729391 23671 fetch_v2_op.cc:138] Fetch variable Index's 1 column.
+1880: I0813 03:30:49.729403 23671 tensor_util.cc:318] Skip copy the same data from Place(cpu) to Place(cpu)
+1880: I0813 03:30:49.729440 23671 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.729450 23671 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1880: I0813 03:30:49.729463 23671 fetch_v2_op.cc:138] Fetch variable NmsRoisNum's 2 column.
+1880: I0813 03:30:49.729781 23671 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: multiclass_nms3; inputs: BBoxes, Scores, RoisNum; attributes: score_threshold, nms_top_k, keep_top_k, nms_threshold, normalized, nms_eta, background_label; outputs: Out, Index, NmsRoisNum
+1880: I0813 03:30:49.729926 23671 onednn_context.cc:104] Clearing DNNL cache.
+1880: I0813 03:30:49.729936 23671 onednn_context.cc:122] Resetting Paddle data layout to NCHW.
+1880: I0813 03:30:49.730033 23671 onednn_context.cc:104] Clearing DNNL cache.
+1880: I0813 03:30:49.730039 23671 onednn_context.cc:122] Resetting Paddle data layout to NCHW.
+1880: I0813 03:30:49.731217 23671 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1ae26a20 for it.
+1880: I0813 03:30:49.731389 23671 eager.cc:133] Tensor(generated_tensor_1) have not GradNode, add GradNodeAccumulation0x1b097de0 for it.
+1880: I0813 03:30:49.732093 23671 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1b099680 for it.
+1880: I0813 03:30:49.732151 23671 eager.cc:133] Tensor(Index_out_0) have not GradNode, add GradNodeAccumulation0x1adf7110 for it.
+1880: I0813 03:30:49.732188 23671 eager.cc:133] Tensor(NmsRoisNum_out_0) have not GradNode, add GradNodeAccumulation0x1ae1ac40 for it.
+1880: I0813 03:30:49.732852 23671 dygraph_functions.cc:53657] Running AD API: multiclass_nms3
+1880: I0813 03:30:49.732899 23671 dygraph_functions.cc:53728] { Input: [ 
+1880: ( bboxes , [[ Not specified tensor log level ]]),  
+1880: ( scores , [[ Not specified tensor log level ]]),  
+1880: ( rois_num , [{ UnDefinedTensor }]), ]} 
+1880: I0813 03:30:49.735384 23671 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1ae26a20 for it.
+1880: I0813 03:30:49.735478 23671 eager.cc:133] Tensor(generated_tensor_1) have not GradNode, add GradNodeAccumulation0x1b097de0 for it.
+1880: I0813 03:30:49.735927 23671 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1ae1ac40 for it.
+1880: I0813 03:30:49.735980 23671 eager.cc:133] Tensor(Index_out_0) have not GradNode, add GradNodeAccumulation0x1adf7110 for it.
+1880: I0813 03:30:49.736014 23671 eager.cc:133] Tensor(NmsRoisNum_out_0) have not GradNode, add GradNodeAccumulation0x1b099680 for it.
+1880: test_multiclass_nms_op failed
+1880:  .EE
+1880: ======================================================================
+1880: ERROR: test_check_output (test_multiclass_nms_op.TestMulticlassNMS3Op)
+1880: ----------------------------------------------------------------------
+1880: Traceback (most recent call last):
+1880:   File "/home/code/Paddle/build/test/legacy_test/test_multiclass_nms_op.py", line 460, in test_check_output
+1880:     self.check_output_with_place(place, check_pir=True)
+1880:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2777, in check_output_with_place
+1880:     pir_checker.check()
+1880:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2314, in check
+1880:     self.calculate_output()
+1880:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2498, in calculate_output
+1880:     pir_outs = self.op_test._calc_pir_output(place)
+1880:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 1386, in _calc_pir_output
+1880:     ret_tuple = self.python_api(*args)
+1880:   File "/home/code/Paddle/build/test/legacy_test/test_multiclass_nms_op.py", line 75, in multiclass_nms3
+1880:     helper.append_op(
+1880:   File "/home/code/Paddle/build/python/paddle/base/layer_helper.py", line 56, in append_op
+1880:     return self.main_program.current_block().append_op(*args, **kwargs)
+1880:   File "/home/code/Paddle/build/python/paddle/base/framework.py", line 4665, in append_op
+1880:     op = Operator(
+1880:   File "/home/code/Paddle/build/python/paddle/base/framework.py", line 3289, in __init__
+1880:     raise TypeError(
+1880: TypeError: The type of '%BBoxes' in operator multiclass_nms3 should be one of [str, bytes, Variable]. but received : Value(define_op_name=pd_op.data, index=0, dtype=builtin.tensor<7x1200x4xf32>, stop_gradient=True)
+1880: 
+1880: ======================================================================
+1880: ERROR: test_check_output (test_multiclass_nms_op.TestMulticlassNMS3OpNoOutput)
+1880: ----------------------------------------------------------------------
+1880: Traceback (most recent call last):
+1880:   File "/home/code/Paddle/build/test/legacy_test/test_multiclass_nms_op.py", line 460, in test_check_output
+1880:     self.check_output_with_place(place, check_pir=True)
+1880:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2777, in check_output_with_place
+1880:     pir_checker.check()
+1880:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2314, in check
+1880:     self.calculate_output()
+1880:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 2498, in calculate_output
+1880:     pir_outs = self.op_test._calc_pir_output(place)
+1880:   File "/home/code/Paddle/build/test/legacy_test/op_test.py", line 1386, in _calc_pir_output
+1880:     ret_tuple = self.python_api(*args)
+1880:   File "/home/code/Paddle/build/test/legacy_test/test_multiclass_nms_op.py", line 75, in multiclass_nms3
+1880:     helper.append_op(
+1880:   File "/home/code/Paddle/build/python/paddle/base/layer_helper.py", line 56, in append_op
+1880:     return self.main_program.current_block().append_op(*args, **kwargs)
+1880:   File "/home/code/Paddle/build/python/paddle/base/framework.py", line 4665, in append_op
+1880:     op = Operator(
+1880:   File "/home/code/Paddle/build/python/paddle/base/framework.py", line 3289, in __init__
+1880:     raise TypeError(
+1880: TypeError: The type of '%BBoxes' in operator multiclass_nms3 should be one of [str, bytes, Variable]. but received : Value(define_op_name=pd_op.data, index=0, dtype=builtin.tensor<7x1200x4xf32>, stop_gradient=True)
+1880: 
+1880: ----------------------------------------------------------------------
+1880: Ran 3 tests in 3.360s
+1880: 
+1880: FAILED (errors=2)
+1880: 
+1880: I0813 03:30:49.785943 23671 mmap_allocator.cc:348] PID: 23671, MemoryMapFdSet: set size - 0
+1880: I0813 03:30:49.795670 23671 mmap_allocator.cc:348] PID: 23671, MemoryMapFdSet: set size - 0
+1880: I0813 03:30:49.983559 23671 onednn_context.cc:104] Clearing DNNL cache.
+1880: I0813 03:30:49.983587 23671 onednn_context.cc:122] Resetting Paddle data layout to NCHW.
+1880: I0813 03:30:49.983626 23671 mmap_allocator.cc:348] PID: 23671, MemoryMapFdSet: set size - 0
+1/1 Test #1880: test_multiclass_nms_op ...........***Failed   12.25 sec
 
 0% tests passed, 1 tests failed out of 1
 
-Total Test time (real) =  11.60 sec
+Total Test time (real) =  12.43 sec
 
 The following tests FAILED:
-	1881 - test_multiclass_nms_op (Failed)
+	1880 - test_multiclass_nms_op (Failed)
 Errors while running CTest
