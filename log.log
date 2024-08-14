@@ -7,6 +7,7 @@ Updating test list for fixtures
 Added 0 tests to meet fixture requirements
 Checking test dependency graph...
 Checking test dependency graph end
+<<<<<<< HEAD
 test 1884
     Start 1884: test_multinomial_op
 
@@ -2358,3 +2359,26 @@ The following tests passed:
 100% tests passed, 0 tests failed out of 1
 
 Total Test time (real) =  12.13 sec
+=======
+test 1874
+    Start 1874: test_moe_op
+
+1874: Test command: /home/cmake-3.18.0-Linux-x86_64/bin/cmake "-E" "env" "PYTHONPATH=/home/code/Paddle/build/python" "/usr/bin/python" "/home/code/Paddle/tools/test_runner.py" "test_moe_op"
+1874: Test timeout computed to be: 10000000
+1874: grep: warning: GREP_OPTIONS is deprecated; please use an alias or script
+1874: WARNING: Logging before InitGoogleLogging() is written to STDERR
+1874: I0814 04:51:35.883327  1693 dynamic_loader.cc:176] Set paddle lib path : /usr/local/lib/python3.9/dist-packages/paddle/libs
+1874: I0814 04:51:38.309484  1693 init.cc:100] Before Parse: argc is 2, Init commandline: dummy --tryfromenv=print_allocator_trace_info,executor_log_deps_every_microseconds,prim_all,enable_interpretercore_launch_cinn,cuda_malloc_async_pool_memory_throttle_ratio,gpugraph_load_node_list_into_hbm,sync_nccl_allreduce,npu_storage_format,manually_trans_conv_filter,enable_cinn_auto_tune,win_cuda_bin_dir,fraction_of_cuda_pinned_memory_to_use,pir_apply_shape_optimization_pass,jit_engine_type,curand_dir,use_cinn,cudnn_dir,accuracy_check_rtol_fp16,convert_all_blocks,mklml_dir,check_nan_inf_level,enable_tracker_all2all,dataloader_use_file_descriptor,embedding_deterministic,cuda_memory_async_pool_realease_threshold,host_trace_level,use_shm_cache,use_stream_safe_cuda_allocator,enable_fusion_fallback,gpugraph_hbm_table_load_factor,deny_cinn_ops,enable_cse_in_dy2st,static_runtime_data_save_path,enable_dependency_builder_debug_info,inner_op_parallelism,use_pinned_memory,enable_unused_var_check,nvidia_package_dir,prim_forward,accuracy_check_atol_bf16,use_virtual_memory_auto_growth,dist_threadpool_size,prim_enabled,graph_get_neighbor_id,add_dependency_for_communication_op,cublas_dir,allreduce_record_one_event,dynamic_static_unified_comm,gemm_use_half_precision_compute_type,enable_cublas_tensor_op_math,graph_embedding_split_infer_mode,accuracy_check_atol_fp32,initial_cpu_memory_in_mb,new_executor_static_build,use_cuda_malloc_async_allocator,gpugraph_offload_gather_copy_maxsize,conv2d_disable_cudnn,enable_sparse_inner_gather,sync_after_alloc,use_auto_growth_v2,tensorrt_dir,einsum_opt,gpu_memory_limit_mb,use_stride_kernel,run_kp_kernel,tracer_profile_fname,logging_trunc_pir_py_code,use_auto_growth_pinned_allocator,free_idle_chunk,dump_chunk_info,tracer_onednn_ops_off,multiple_of_cupti_buffer_size,reader_queue_speed_test_mode,enable_dump_main_program,enable_api_kernel_fallback,nccl_blocking_wait,cudnn_exhaustive_search_times,search_cache_max_number,enable_gpu_memory_usage_log,graph_load_in_parallel,init_allocated_mem,logging_pir_py_code_dump_symbolic_dims,use_cuda_managed_memory,print_sub_graph_dir,logging_pir_py_code_int_tensor_element_limit,enable_all2all_use_fp16,enable_graph_multi_node_sampling,graph_neighbor_size_percent,lapack_dir,nccl_dir,alloc_fill_value,use_system_allocator,enable_auto_detect_gpu_topo,cse_max_count,op_dir,benchmark,gpugraph_dedup_pull_push_mode,enable_async_trace,cudnn_batchnorm_spatial_persistent,fleet_executor_with_standalone,enable_pir_in_executor_trace_run,enable_opt_get_features,dygraph_debug,initial_gpu_memory_in_mb,low_precision_op_list,gpugraph_storage_mode,logging_pir_py_code_dir,cusparse_dir,enable_fuse_parallel_matmul_pass,memory_fraction_of_eager_deletion,cinn_subgraph_graphviz_dir,fraction_of_cpu_memory_to_use,gpugraph_parallel_copyer_split_maxsize,gpugraph_sparse_table_storage_mode,cudnn_deterministic,cublaslt_device_best_config,conv_workspace_size_limit,new_executor_use_inplace,custom_device_mem_record,gpugraph_offload_param_extends,sort_sum_gradient,enable_exit_when_partial_worker,call_stack_level,fuse_parameter_groups_size,cupti_dir,set_to_1d,eager_delete_tensor_gb,gpugraph_offload_param_stat,pir_subgraph_saving_dir,prim_enable_dynamic,gpugraph_force_device_batch_num_equal,free_when_no_cache_hit,auto_growth_chunk_size_in_mb,enable_auto_rdma_trans,paddle_num_threads,cusparselt_dir,pir_debug,enable_pir_in_executor,graph_metapath_split_opt,gpugraph_enable_hbm_table_collision_stat,prim_check_ops,static_executor_perfstat_filepath,gpugraph_enable_print_op_debug,auto_free_cudagraph_allocations_on_launch,allocator_strategy,prim_skip_dynamic,pinned_memory_as_cpu_backend,use_autotune,accuracy_check_rtol_bf16,gpugraph_debug_gpu_memory,cudnn_exhaustive_search,pir_apply_inplace_pass,prim_backward,cache_inference_while_scope,mkl_dir,new_executor_use_local_scope,get_host_by_name_time,async_trace_count,enable_record_memory,enable_cinn_accuracy_check,local_exe_sub_scope_limit,fraction_of_gpu_memory_to_use,trt_ibuilder_cache,gpu_allocator_retry_time,disable_dyshape_in_train,enable_pir_with_pt_in_dy2st,check_infer_symbolic,save_static_runtime_data,use_xqa_optim,enable_adjust_op_order,enable_collect_shape,enable_neighbor_list_use_uva,new_executor_serial_run,enable_pir_api,allow_cinn_ops,cusolver_dir,new_executor_use_cuda_graph,check_nan_inf,accuracy_check_atol_fp16,fuse_parameter_memory_size,benchmark_nccl,tensor_operants_mode,enable_gpu_memory_usage_log_mb,new_executor_sequential_run,gpugraph_merge_grads_segment_size,print_ir,eager_delete_scope,prim_forward_blacklist,cuda_dir,cinn_compile_thread_num,tracer_onednn_ops_on,use_fast_math,ir_inplace_kernel_blacklist,gpugraph_enable_gpu_direct_access,all_blocks_convert_trt,gpugraph_slot_feasign_max_num,pir_broadcast_tree_limit,accuracy_check_rtol_fp32,enable_cinn_compile_cache,apply_pass_to_program,check_kernel_launch,query_dest_rank_by_multi_node,use_mkldnn,multi_node_sample_use_gpu_table,log_memory_stats,cublaslt_exhaustive_search_times,gpugraph_parallel_stream_num,fast_eager_deletion_mode,enable_blaslt_global_search,gpugraph_enable_segment_merge_grads,max_inplace_grad_add,reallocate_gpu_memory_in_mb,selected_gpus 
+1874: I0814 04:51:38.315392  1693 init.cc:108] After Parse: argc is 2
+1874: I0814 04:51:44.956900  1693 mmap_allocator.cc:348] PID: 1693, MemoryMapFdSet: set size - 0
+1874: I0814 04:51:44.967442  1693 mmap_allocator.cc:348] PID: 1693, MemoryMapFdSet: set size - 0
+1874: I0814 04:51:45.248441  1693 mmap_allocator.cc:348] PID: 1693, MemoryMapFdSet: set size - 0
+1/1 Test #1874: test_moe_op ......................   Passed   10.54 sec
+
+The following tests passed:
+	test_moe_op
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =  10.72 sec
+>>>>>>> 98c7d712b32df19e084a656e0a0b1831e23ba4a4
