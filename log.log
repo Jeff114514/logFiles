@@ -16,213 +16,213 @@ test 1901
 1901: Test timeout computed to be: 10000000
 1901: grep: warning: GREP_OPTIONS is deprecated; please use an alias or script
 1901: WARNING: Logging before InitGoogleLogging() is written to STDERR
-1901: I0815 07:38:59.678231  9730 dynamic_loader.cc:176] Set paddle lib path : /usr/local/lib/python3.9/dist-packages/paddle/libs
-1901: I0815 07:39:00.464846  9730 init.cc:100] Before Parse: argc is 2, Init commandline: dummy --tryfromenv=enable_dump_main_program,enable_auto_rdma_trans,multi_node_sample_use_gpu_table,dygraph_debug,cinn_compile_thread_num,gemm_use_half_precision_compute_type,prim_forward,print_ir,use_auto_growth_v2,pir_apply_shape_optimization_pass,enable_adjust_op_order,enable_cse_in_dy2st,enable_cinn_auto_tune,save_static_runtime_data,multiple_of_cupti_buffer_size,gpugraph_sparse_table_storage_mode,gpugraph_slot_feasign_max_num,accuracy_check_atol_fp32,win_cuda_bin_dir,cudnn_deterministic,prim_check_ops,use_autotune,gpugraph_parallel_copyer_split_maxsize,accuracy_check_atol_fp16,enable_neighbor_list_use_uva,lapack_dir,enable_dependency_builder_debug_info,dump_chunk_info,all_blocks_convert_trt,enable_tracker_all2all,call_stack_level,static_executor_perfstat_filepath,gpugraph_enable_gpu_direct_access,deny_cinn_ops,gpugraph_enable_hbm_table_collision_stat,enable_pir_in_executor,allocator_strategy,enable_pir_in_executor_trace_run,mkl_dir,nccl_blocking_wait,cusparse_dir,graph_get_neighbor_id,host_trace_level,sync_after_alloc,tracer_onednn_ops_off,conv2d_disable_cudnn,conv_workspace_size_limit,curand_dir,use_cinn,dynamic_static_unified_comm,disable_dyshape_in_train,gpugraph_offload_param_stat,jit_engine_type,cublas_dir,initial_gpu_memory_in_mb,new_executor_use_cuda_graph,use_pinned_memory,pir_apply_inplace_pass,accuracy_check_rtol_bf16,convert_all_blocks,use_auto_growth_pinned_allocator,enable_auto_detect_gpu_topo,new_executor_sequential_run,gpugraph_merge_grads_segment_size,use_shm_cache,cudnn_dir,add_dependency_for_communication_op,dist_threadpool_size,reader_queue_speed_test_mode,gpugraph_load_node_list_into_hbm,eager_delete_tensor_gb,gpugraph_offload_gather_copy_maxsize,tracer_onednn_ops_on,custom_device_mem_record,new_executor_static_build,benchmark_nccl,prim_backward,fraction_of_cuda_pinned_memory_to_use,reallocate_gpu_memory_in_mb,log_memory_stats,cuda_malloc_async_pool_memory_throttle_ratio,auto_growth_chunk_size_in_mb,cublaslt_exhaustive_search_times,alloc_fill_value,pinned_memory_as_cpu_backend,cache_inference_while_scope,mklml_dir,enable_fuse_parallel_matmul_pass,manually_trans_conv_filter,init_allocated_mem,pir_debug,enable_graph_multi_node_sampling,use_fast_math,enable_blaslt_global_search,cuda_dir,accuracy_check_rtol_fp16,new_executor_use_inplace,gpu_memory_limit_mb,new_executor_use_local_scope,allow_cinn_ops,tracer_profile_fname,nccl_dir,check_kernel_launch,tensor_operants_mode,enable_gpu_memory_usage_log_mb,max_inplace_grad_add,cuda_memory_async_pool_realease_threshold,enable_unused_var_check,fuse_parameter_memory_size,enable_cinn_accuracy_check,prim_skip_dynamic,fuse_parameter_groups_size,gpugraph_enable_print_op_debug,enable_opt_get_features,print_allocator_trace_info,selected_gpus,nvidia_package_dir,enable_exit_when_partial_worker,use_cuda_malloc_async_allocator,fast_eager_deletion_mode,get_host_by_name_time,gpugraph_hbm_table_load_factor,check_nan_inf,set_to_1d,logging_pir_py_code_dump_symbolic_dims,prim_enabled,accuracy_check_rtol_fp32,fraction_of_cpu_memory_to_use,gpugraph_dedup_pull_push_mode,dataloader_use_file_descriptor,enable_api_kernel_fallback,enable_sparse_inner_gather,prim_forward_blacklist,cupti_dir,use_stride_kernel,ir_inplace_kernel_blacklist,new_executor_serial_run,gpugraph_enable_segment_merge_grads,op_dir,enable_cinn_compile_cache,run_kp_kernel,enable_pir_api,print_sub_graph_dir,static_runtime_data_save_path,enable_collect_shape,apply_pass_to_program,use_cuda_managed_memory,use_mkldnn,accuracy_check_atol_bf16,cudnn_exhaustive_search,search_cache_max_number,query_dest_rank_by_multi_node,enable_cublas_tensor_op_math,trt_ibuilder_cache,gpugraph_storage_mode,use_stream_safe_cuda_allocator,paddle_num_threads,cusparselt_dir,fraction_of_gpu_memory_to_use,pir_broadcast_tree_limit,pir_subgraph_saving_dir,cse_max_count,enable_fusion_fallback,executor_log_deps_every_microseconds,graph_neighbor_size_percent,cublaslt_device_best_config,prim_all,use_xqa_optim,free_idle_chunk,use_system_allocator,embedding_deterministic,fleet_executor_with_standalone,enable_all2all_use_fp16,tensorrt_dir,enable_async_trace,free_when_no_cache_hit,gpugraph_debug_gpu_memory,sync_nccl_allreduce,check_infer_symbolic,check_nan_inf_level,logging_trunc_pir_py_code,enable_interpretercore_launch_cinn,cudnn_exhaustive_search_times,gpugraph_force_device_batch_num_equal,graph_load_in_parallel,enable_pir_with_pt_in_dy2st,inner_op_parallelism,graph_embedding_split_infer_mode,enable_gpu_memory_usage_log,allreduce_record_one_event,einsum_opt,async_trace_count,enable_record_memory,gpu_allocator_retry_time,prim_enable_dynamic,logging_pir_py_code_int_tensor_element_limit,cusolver_dir,sort_sum_gradient,initial_cpu_memory_in_mb,eager_delete_scope,logging_pir_py_code_dir,npu_storage_format,auto_free_cudagraph_allocations_on_launch,gpugraph_parallel_stream_num,memory_fraction_of_eager_deletion,gpugraph_offload_param_extends,cinn_subgraph_graphviz_dir,cudnn_batchnorm_spatial_persistent,use_virtual_memory_auto_growth,graph_metapath_split_opt,local_exe_sub_scope_limit,low_precision_op_list,benchmark 
-1901: I0815 07:39:00.464959  9730 init.cc:108] After Parse: argc is 2
-1901: I0815 07:39:05.956941  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:05.957031  9730 scope.cc:202] Create variable Out
-1901: I0815 07:39:05.957047  9730 scope.cc:202] Create variable MedianIndex
-1901: I0815 07:39:05.957226  9730 op_registry.cc:112] CreateOp directly from OpDesc is deprecated. It should only beused in unit tests. Use CreateOp(const OpDesc& op_desc) instead.
-1901: I0815 07:39:05.957962  9730 allocator_facade.cc:212] selected allocator strategy:1
-1901: I0815 07:39:05.958273  9730 dynamic_loader.cc:226] Try to find library: libcuda.so from default system path.
-1901: I0815 07:39:08.401276  9730 op_desc.cc:1111] CompileTime infer shape on nanmedian
-1901: I0815 07:39:08.401342  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.401496  9730 op_desc.cc:1111] CompileTime infer shape on nanmedian
-1901: I0815 07:39:08.401507  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.402554  9730 op_desc.cc:1111] CompileTime infer shape on mean
-1901: I0815 07:39:08.402581  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
-1901: I0815 07:39:08.402622  9730 op_desc.cc:1111] CompileTime infer shape on mean
-1901: I0815 07:39:08.402629  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
-1901: I0815 07:39:08.403028  9730 pybind.cc:1827] need skip: 0
-1901: I0815 07:39:08.403122  9730 pybind.cc:1827] need skip: 0
-1901: I0815 07:39:08.403551  9730 op_desc.cc:1111] CompileTime infer shape on fill_constant
-1901: I0815 07:39:08.403841  9730 op_desc.cc:1111] CompileTime infer shape on mean_grad
-1901: I0815 07:39:08.403858  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all_grad; inputs: X, Out@GRAD; attributes: ; outputs: X@GRAD
-1901: I0815 07:39:08.403935  9730 op_desc.cc:1111] CompileTime infer shape on nanmedian_grad
-1901: I0815 07:39:08.403949  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian_grad; inputs: X, MedianIndex, Out@GRAD; attributes: axis, keepdim, mode; outputs: X@GRAD
-1901: I0815 07:39:08.406919  9730 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1901: I0815 07:39:08.407667  9730 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1901: I0815 07:39:08.407686  9730 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1901: I0815 07:39:08.407704  9730 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1901: I0815 07:39:08.410771  9730 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
-1901: I0815 07:39:08.410789  9730 scope.cc:202] Create variable feed
-1901: I0815 07:39:08.410876  9730 program_interpreter.cc:243] New Executor is Running.
-1901: I0815 07:39:08.410883  9730 interpreter_util.cc:1169] Creating Variables
-1901: I0815 07:39:08.410892  9730 scope.cc:202] Create variable MedianIndex
-1901: I0815 07:39:08.410902  9730 interpreter_util.cc:1206] Create Variable MedianIndex locally, which pointer is 0x44ed6cd0 type is 7
-1901: I0815 07:39:08.410915  9730 scope.cc:202] Create variable Out
-1901: I0815 07:39:08.410921  9730 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x44ed7240 type is 7
-1901: I0815 07:39:08.410926  9730 scope.cc:202] Create variable Out@GRAD
-1901: I0815 07:39:08.410931  9730 interpreter_util.cc:1206] Create Variable Out@GRAD locally, which pointer is 0x44ed76f0 type is 7
-1901: I0815 07:39:08.410938  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.410940  9730 interpreter_util.cc:1206] Create Variable X locally, which pointer is 0x44ed8010 type is 7
-1901: I0815 07:39:08.410945  9730 scope.cc:202] Create variable X@GRAD
-1901: I0815 07:39:08.410949  9730 interpreter_util.cc:1206] Create Variable X@GRAD locally, which pointer is 0x44ed8280 type is 7
-1901: I0815 07:39:08.410956  9730 scope.cc:202] Create variable _generated_var_0
-1901: I0815 07:39:08.410959  9730 interpreter_util.cc:1206] Create Variable _generated_var_0 locally, which pointer is 0x44ed84c0 type is 7
-1901: I0815 07:39:08.410965  9730 scope.cc:202] Create variable _generated_var_0@GRAD
-1901: I0815 07:39:08.410969  9730 interpreter_util.cc:1206] Create Variable _generated_var_0@GRAD locally, which pointer is 0x44ed8720 type is 7
-1901: I0815 07:39:08.410974  9730 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x44ed7640 type is 9
-1901: I0815 07:39:08.410979  9730 scope.cc:202] Create variable fetch
-1901: I0815 07:39:08.410984  9730 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x44ed84a0 type is 10
-1901: I0815 07:39:08.411100  9730 interpreter_util.cc:594] Static build: 0
-1901: I0815 07:39:08.411108  9730 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1901: I0815 07:39:08.411113  9730 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1901: I0815 07:39:08.411116  9730 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1901: W0815 07:39:08.411748  9730 gpu_resources.cc:119] Please NOTE: device: 0, GPU Compute Capability: 6.1, Driver API Version: 12.0, Runtime API Version: 12.0
-1901: I0815 07:39:08.411978  9730 dynamic_loader.cc:226] Try to find library: libcudnn.so from default system path.
-1901: W0815 07:39:08.413009  9730 gpu_resources.cc:164] device: 0, cuDNN Version: 8.8.
-1901: I0815 07:39:08.413218  9730 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.413252  9730 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.413410  9730 operator.cc:2295] op type:nanmedian, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.413421  9730 interpreter_util.cc:844] nanmedian : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.413441  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.417958  9730 operator.cc:2295] op type:mean, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.417981  9730 interpreter_util.cc:844] mean : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.417999  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
-1901: I0815 07:39:08.418083  9730 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
-1901: I0815 07:39:08.418190  9730 operator.cc:2295] op type:fill_constant, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.418200  9730 interpreter_util.cc:844] fill_constant : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.418260  9730 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
-1901: I0815 07:39:08.418285  9730 interpreter_util.cc:647] Standalone Executor is Used.
-1901: I0815 07:39:08.418319  9730 operator.cc:2295] op type:mean_grad, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.418329  9730 interpreter_util.cc:844] mean_grad : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.418346  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all_grad; inputs: X, Out@GRAD; attributes: ; outputs: X@GRAD
-1901: I0815 07:39:08.418442  9730 operator.cc:2295] op type:nanmedian_grad, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.418452  9730 interpreter_util.cc:844] nanmedian_grad : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.418469  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian_grad; inputs: X, MedianIndex, Out@GRAD; attributes: axis, keepdim, mode; outputs: X@GRAD
-1901: I0815 07:39:08.418594  9730 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.418622  9730 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.418644  9730 scope.cc:202] Create variable X@GRAD_device_Place(gpu:0)_Place(cpu)
-1901: I0815 07:39:08.418653  9730 data_transfer.cc:396] Create Variable X@GRAD_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x44f55810Variable Type 7
-1901: I0815 07:39:08.418673  9730 data_transfer.cc:439] Insert memcpy_d2h with X@GRAD(Place(gpu:0)) -> X@GRAD_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
-1901: I0815 07:39:08.418697  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.418725  9730 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.418746  9730 tensor_utils.cc:57] TensorCopy 100, 100 from Place(gpu:0) to Place(cpu)
-1901: I0815 07:39:08.418862  9730 data_transfer.cc:232] Run memcpy_d2h done.
-1901: I0815 07:39:08.418898  9730 fetch_v2_op.cc:138] Fetch variable X@GRAD_device_Place(gpu:0)_Place(cpu)'s 0 column.
-1901: I0815 07:39:08.419502  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
-1901: I0815 07:39:08.419548  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.420580  9730 op_desc.cc:1111] CompileTime infer shape on nanmedian
-1901: I0815 07:39:08.420601  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.420645  9730 op_desc.cc:1111] CompileTime infer shape on nanmedian
-1901: I0815 07:39:08.420653  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.421277  9730 op_desc.cc:1111] CompileTime infer shape on mean
-1901: I0815 07:39:08.421293  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
-1901: I0815 07:39:08.421335  9730 op_desc.cc:1111] CompileTime infer shape on mean
-1901: I0815 07:39:08.421342  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
-1901: I0815 07:39:08.421614  9730 pybind.cc:1827] need skip: 0
-1901: I0815 07:39:08.421667  9730 pybind.cc:1827] need skip: 0
-1901: I0815 07:39:08.421974  9730 op_desc.cc:1111] CompileTime infer shape on fill_constant
-1901: I0815 07:39:08.422049  9730 op_desc.cc:1111] CompileTime infer shape on mean_grad
-1901: I0815 07:39:08.422058  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all_grad; inputs: X, Out@GRAD; attributes: ; outputs: X@GRAD
-1901: I0815 07:39:08.422122  9730 op_desc.cc:1111] CompileTime infer shape on nanmedian_grad
-1901: I0815 07:39:08.422132  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian_grad; inputs: X, MedianIndex, Out@GRAD; attributes: axis, keepdim, mode; outputs: X@GRAD
-1901: I0815 07:39:08.424183  9730 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1901: I0815 07:39:08.424683  9730 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1901: I0815 07:39:08.424697  9730 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1901: I0815 07:39:08.424702  9730 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1901: I0815 07:39:08.428273  9730 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
-1901: I0815 07:39:08.428290  9730 scope.cc:202] Create variable feed
-1901: I0815 07:39:08.428328  9730 interpreter_util.cc:1169] Creating Variables
-1901: I0815 07:39:08.428337  9730 scope.cc:202] Create variable MedianIndex
-1901: I0815 07:39:08.428341  9730 interpreter_util.cc:1206] Create Variable MedianIndex locally, which pointer is 0x44aa8340 type is 7
-1901: I0815 07:39:08.428349  9730 scope.cc:202] Create variable Out
-1901: I0815 07:39:08.428351  9730 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x44e93cd0 type is 7
-1901: I0815 07:39:08.428356  9730 scope.cc:202] Create variable Out@GRAD
-1901: I0815 07:39:08.428360  9730 interpreter_util.cc:1206] Create Variable Out@GRAD locally, which pointer is 0x44e920d0 type is 7
-1901: I0815 07:39:08.428364  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.428368  9730 interpreter_util.cc:1206] Create Variable X locally, which pointer is 0x44e9e830 type is 7
-1901: I0815 07:39:08.428372  9730 scope.cc:202] Create variable X@GRAD
-1901: I0815 07:39:08.428375  9730 interpreter_util.cc:1206] Create Variable X@GRAD locally, which pointer is 0x44eb92b0 type is 7
-1901: I0815 07:39:08.428382  9730 scope.cc:202] Create variable _generated_var_0
-1901: I0815 07:39:08.428385  9730 interpreter_util.cc:1206] Create Variable _generated_var_0 locally, which pointer is 0x44e961f0 type is 7
-1901: I0815 07:39:08.428390  9730 scope.cc:202] Create variable _generated_var_0@GRAD
-1901: I0815 07:39:08.428395  9730 interpreter_util.cc:1206] Create Variable _generated_var_0@GRAD locally, which pointer is 0x44ebe4c0 type is 7
-1901: I0815 07:39:08.428400  9730 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x44a816a0 type is 9
-1901: I0815 07:39:08.428404  9730 scope.cc:202] Create variable fetch
-1901: I0815 07:39:08.428408  9730 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x44e961d0 type is 10
-1901: I0815 07:39:08.428495  9730 interpreter_util.cc:594] Static build: 0
-1901: I0815 07:39:08.428503  9730 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1901: I0815 07:39:08.428506  9730 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1901: I0815 07:39:08.428510  9730 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1901: I0815 07:39:08.428553  9730 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.428566  9730 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.428611  9730 operator.cc:2295] op type:nanmedian, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.428619  9730 interpreter_util.cc:844] nanmedian : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.428635  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.429119  9730 operator.cc:2295] op type:mean, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.429134  9730 interpreter_util.cc:844] mean : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.429148  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
-1901: I0815 07:39:08.429199  9730 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
-1901: I0815 07:39:08.429258  9730 operator.cc:2295] op type:fill_constant, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.429268  9730 interpreter_util.cc:844] fill_constant : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.429313  9730 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
-1901: I0815 07:39:08.429347  9730 operator.cc:2295] op type:mean_grad, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.429355  9730 interpreter_util.cc:844] mean_grad : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.429371  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all_grad; inputs: X, Out@GRAD; attributes: ; outputs: X@GRAD
-1901: I0815 07:39:08.429441  9730 operator.cc:2295] op type:nanmedian_grad, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.429451  9730 interpreter_util.cc:844] nanmedian_grad : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.429467  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian_grad; inputs: X, MedianIndex, Out@GRAD; attributes: axis, keepdim, mode; outputs: X@GRAD
-1901: I0815 07:39:08.429569  9730 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.429584  9730 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.429600  9730 scope.cc:202] Create variable X@GRAD_device_Place(gpu:0)_Place(cpu)
-1901: I0815 07:39:08.429607  9730 data_transfer.cc:396] Create Variable X@GRAD_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x441d9ab0Variable Type 7
-1901: I0815 07:39:08.429622  9730 data_transfer.cc:439] Insert memcpy_d2h with X@GRAD(Place(gpu:0)) -> X@GRAD_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
-1901: I0815 07:39:08.429637  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.429654  9730 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.429669  9730 tensor_utils.cc:57] TensorCopy 100, 100 from Place(gpu:0) to Place(cpu)
-1901: I0815 07:39:08.429723  9730 data_transfer.cc:232] Run memcpy_d2h done.
-1901: I0815 07:39:08.429744  9730 fetch_v2_op.cc:138] Fetch variable X@GRAD_device_Place(gpu:0)_Place(cpu)'s 0 column.
-1901: I0815 07:39:08.430157  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
-1901: I0815 07:39:08.430191  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.431783  9730 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1a2f8f50 for it.
-1901: I0815 07:39:08.431972  9730 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a266690 for it.
-1901: I0815 07:39:08.432025  9730 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x1a3d9140 for it.
-1901: I0815 07:39:08.432927  9730 dygraph_functions.cc:54355] Running AD API: nanmedian
-1901: I0815 07:39:08.432991  9730 dygraph_functions.cc:54415] { Input: [ 
+1901: I0815 07:53:31.646387 20274 dynamic_loader.cc:176] Set paddle lib path : /usr/local/lib/python3.9/dist-packages/paddle/libs
+1901: I0815 07:53:32.865316 20274 init.cc:100] Before Parse: argc is 2, Init commandline: dummy --tryfromenv=enable_dump_main_program,embedding_deterministic,dump_chunk_info,gpugraph_offload_param_extends,enable_fusion_fallback,gpugraph_enable_print_op_debug,enable_collect_shape,enable_tracker_all2all,enable_gpu_memory_usage_log,use_auto_growth_pinned_allocator,mklml_dir,paddle_num_threads,enable_cinn_accuracy_check,gpugraph_enable_segment_merge_grads,graph_load_in_parallel,executor_log_deps_every_microseconds,use_fast_math,use_stride_kernel,pir_apply_inplace_pass,lapack_dir,enable_fuse_parallel_matmul_pass,accuracy_check_rtol_fp16,accuracy_check_atol_fp16,gpugraph_offload_gather_copy_maxsize,enable_async_trace,query_dest_rank_by_multi_node,enable_gpu_memory_usage_log_mb,call_stack_level,max_inplace_grad_add,multi_node_sample_use_gpu_table,new_executor_use_local_scope,cublaslt_exhaustive_search_times,save_static_runtime_data,static_executor_perfstat_filepath,prim_backward,fraction_of_cuda_pinned_memory_to_use,inner_op_parallelism,enable_cinn_auto_tune,convert_all_blocks,search_cache_max_number,enable_sparse_inner_gather,gpugraph_sparse_table_storage_mode,print_sub_graph_dir,enable_dependency_builder_debug_info,run_kp_kernel,prim_skip_dynamic,accuracy_check_atol_bf16,gpugraph_offload_param_stat,graph_get_neighbor_id,gpu_memory_limit_mb,cudnn_deterministic,cse_max_count,alloc_fill_value,gemm_use_half_precision_compute_type,logging_pir_py_code_dir,use_stream_safe_cuda_allocator,use_shm_cache,custom_device_mem_record,all_blocks_convert_trt,cuda_memory_async_pool_realease_threshold,sort_sum_gradient,fuse_parameter_memory_size,gpu_allocator_retry_time,enable_all2all_use_fp16,cudnn_dir,selected_gpus,cuda_dir,graph_metapath_split_opt,gpugraph_load_node_list_into_hbm,use_cinn,free_idle_chunk,disable_dyshape_in_train,tracer_profile_fname,benchmark_nccl,get_host_by_name_time,logging_pir_py_code_int_tensor_element_limit,memory_fraction_of_eager_deletion,cudnn_exhaustive_search_times,prim_enable_dynamic,add_dependency_for_communication_op,conv2d_disable_cudnn,tracer_onednn_ops_on,nccl_dir,low_precision_op_list,check_kernel_launch,gpugraph_parallel_stream_num,enable_interpretercore_launch_cinn,dygraph_debug,prim_check_ops,tracer_onednn_ops_off,enable_unused_var_check,cinn_subgraph_graphviz_dir,enable_pir_in_executor_trace_run,accuracy_check_rtol_fp32,init_allocated_mem,prim_forward,graph_neighbor_size_percent,free_when_no_cache_hit,enable_pir_with_pt_in_dy2st,cudnn_exhaustive_search,enable_graph_multi_node_sampling,apply_pass_to_program,cublaslt_device_best_config,check_infer_symbolic,fraction_of_cpu_memory_to_use,gpugraph_enable_hbm_table_collision_stat,op_dir,enable_exit_when_partial_worker,fraction_of_gpu_memory_to_use,cusparse_dir,gpugraph_storage_mode,gpugraph_dedup_pull_push_mode,new_executor_serial_run,nccl_blocking_wait,multiple_of_cupti_buffer_size,auto_growth_chunk_size_in_mb,gpugraph_debug_gpu_memory,auto_free_cudagraph_allocations_on_launch,check_nan_inf_level,enable_cinn_compile_cache,pir_broadcast_tree_limit,new_executor_sequential_run,local_exe_sub_scope_limit,use_system_allocator,gpugraph_force_device_batch_num_equal,manually_trans_conv_filter,new_executor_use_cuda_graph,pir_debug,enable_cse_in_dy2st,enable_auto_detect_gpu_topo,tensor_operants_mode,prim_enabled,nvidia_package_dir,reader_queue_speed_test_mode,new_executor_use_inplace,dataloader_use_file_descriptor,logging_pir_py_code_dump_symbolic_dims,dynamic_static_unified_comm,pir_apply_shape_optimization_pass,jit_engine_type,sync_after_alloc,use_auto_growth_v2,gpugraph_slot_feasign_max_num,gpugraph_parallel_copyer_split_maxsize,use_cuda_malloc_async_allocator,new_executor_static_build,set_to_1d,enable_api_kernel_fallback,einsum_opt,graph_embedding_split_infer_mode,enable_blaslt_global_search,check_nan_inf,host_trace_level,use_xqa_optim,ir_inplace_kernel_blacklist,fleet_executor_with_standalone,initial_gpu_memory_in_mb,sync_nccl_allreduce,print_allocator_trace_info,logging_trunc_pir_py_code,static_runtime_data_save_path,pir_subgraph_saving_dir,npu_storage_format,prim_all,dist_threadpool_size,allreduce_record_one_event,pinned_memory_as_cpu_backend,cupti_dir,enable_neighbor_list_use_uva,cuda_malloc_async_pool_memory_throttle_ratio,reallocate_gpu_memory_in_mb,enable_pir_in_executor,cusparselt_dir,enable_record_memory,conv_workspace_size_limit,cublas_dir,print_ir,use_mkldnn,use_virtual_memory_auto_growth,trt_ibuilder_cache,allow_cinn_ops,cache_inference_while_scope,accuracy_check_atol_fp32,fast_eager_deletion_mode,async_trace_count,gpugraph_hbm_table_load_factor,accuracy_check_rtol_bf16,use_autotune,log_memory_stats,fuse_parameter_groups_size,initial_cpu_memory_in_mb,enable_adjust_op_order,tensorrt_dir,win_cuda_bin_dir,enable_cublas_tensor_op_math,cusolver_dir,use_cuda_managed_memory,enable_opt_get_features,allocator_strategy,eager_delete_scope,gpugraph_merge_grads_segment_size,curand_dir,enable_pir_api,benchmark,gpugraph_enable_gpu_direct_access,cinn_compile_thread_num,eager_delete_tensor_gb,enable_auto_rdma_trans,cudnn_batchnorm_spatial_persistent,mkl_dir,deny_cinn_ops,use_pinned_memory,prim_forward_blacklist 
+1901: I0815 07:53:32.865429 20274 init.cc:108] After Parse: argc is 2
+1901: I0815 07:53:38.510706 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:38.510805 20274 scope.cc:202] Create variable Out
+1901: I0815 07:53:38.510840 20274 scope.cc:202] Create variable MedianIndex
+1901: I0815 07:53:38.511039 20274 op_registry.cc:112] CreateOp directly from OpDesc is deprecated. It should only beused in unit tests. Use CreateOp(const OpDesc& op_desc) instead.
+1901: I0815 07:53:38.511790 20274 allocator_facade.cc:212] selected allocator strategy:1
+1901: I0815 07:53:38.512245 20274 dynamic_loader.cc:226] Try to find library: libcuda.so from default system path.
+1901: I0815 07:53:41.640344 20274 op_desc.cc:1111] CompileTime infer shape on nanmedian
+1901: I0815 07:53:41.640481 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.640641 20274 op_desc.cc:1111] CompileTime infer shape on nanmedian
+1901: I0815 07:53:41.640663 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.641825 20274 op_desc.cc:1111] CompileTime infer shape on mean
+1901: I0815 07:53:41.641894 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
+1901: I0815 07:53:41.641960 20274 op_desc.cc:1111] CompileTime infer shape on mean
+1901: I0815 07:53:41.641978 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
+1901: I0815 07:53:41.642422 20274 pybind.cc:1827] need skip: 0
+1901: I0815 07:53:41.642541 20274 pybind.cc:1827] need skip: 0
+1901: I0815 07:53:41.642963 20274 op_desc.cc:1111] CompileTime infer shape on fill_constant
+1901: I0815 07:53:41.643285 20274 op_desc.cc:1111] CompileTime infer shape on mean_grad
+1901: I0815 07:53:41.643362 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all_grad; inputs: X, Out@GRAD; attributes: ; outputs: X@GRAD
+1901: I0815 07:53:41.643472 20274 op_desc.cc:1111] CompileTime infer shape on nanmedian_grad
+1901: I0815 07:53:41.643498 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian_grad; inputs: X, MedianIndex, Out@GRAD; attributes: axis, keepdim, mode; outputs: X@GRAD
+1901: I0815 07:53:41.646670 20274 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1901: I0815 07:53:41.647459 20274 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1901: I0815 07:53:41.647501 20274 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1901: I0815 07:53:41.647536 20274 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1901: I0815 07:53:41.651099 20274 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
+1901: I0815 07:53:41.651150 20274 scope.cc:202] Create variable feed
+1901: I0815 07:53:41.651252 20274 program_interpreter.cc:243] New Executor is Running.
+1901: I0815 07:53:41.651270 20274 interpreter_util.cc:1169] Creating Variables
+1901: I0815 07:53:41.651289 20274 scope.cc:202] Create variable MedianIndex
+1901: I0815 07:53:41.651320 20274 interpreter_util.cc:1206] Create Variable MedianIndex locally, which pointer is 0x452982c0 type is 7
+1901: I0815 07:53:41.651343 20274 scope.cc:202] Create variable Out
+1901: I0815 07:53:41.651355 20274 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x45298830 type is 7
+1901: I0815 07:53:41.651371 20274 scope.cc:202] Create variable Out@GRAD
+1901: I0815 07:53:41.651381 20274 interpreter_util.cc:1206] Create Variable Out@GRAD locally, which pointer is 0x45298ce0 type is 7
+1901: I0815 07:53:41.651396 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:41.651407 20274 interpreter_util.cc:1206] Create Variable X locally, which pointer is 0x45299b60 type is 7
+1901: I0815 07:53:41.651420 20274 scope.cc:202] Create variable X@GRAD
+1901: I0815 07:53:41.651432 20274 interpreter_util.cc:1206] Create Variable X@GRAD locally, which pointer is 0x45299dd0 type is 7
+1901: I0815 07:53:41.651448 20274 scope.cc:202] Create variable _generated_var_0
+1901: I0815 07:53:41.651463 20274 interpreter_util.cc:1206] Create Variable _generated_var_0 locally, which pointer is 0x4529a010 type is 7
+1901: I0815 07:53:41.651477 20274 scope.cc:202] Create variable _generated_var_0@GRAD
+1901: I0815 07:53:41.651489 20274 interpreter_util.cc:1206] Create Variable _generated_var_0@GRAD locally, which pointer is 0x4529a270 type is 7
+1901: I0815 07:53:41.651502 20274 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x45298c30 type is 9
+1901: I0815 07:53:41.651516 20274 scope.cc:202] Create variable fetch
+1901: I0815 07:53:41.651528 20274 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x45299ff0 type is 10
+1901: I0815 07:53:41.651669 20274 interpreter_util.cc:594] Static build: 0
+1901: I0815 07:53:41.651687 20274 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1901: I0815 07:53:41.651703 20274 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1901: I0815 07:53:41.651718 20274 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1901: W0815 07:53:41.652387 20274 gpu_resources.cc:119] Please NOTE: device: 0, GPU Compute Capability: 6.1, Driver API Version: 12.0, Runtime API Version: 12.0
+1901: I0815 07:53:41.652621 20274 dynamic_loader.cc:226] Try to find library: libcudnn.so from default system path.
+1901: W0815 07:53:41.653692 20274 gpu_resources.cc:164] device: 0, cuDNN Version: 8.8.
+1901: I0815 07:53:41.653963 20274 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.654013 20274 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.654181 20274 operator.cc:2295] op type:nanmedian, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.654206 20274 interpreter_util.cc:844] nanmedian : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.654238 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.658892 20274 operator.cc:2295] op type:mean, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.658954 20274 interpreter_util.cc:844] mean : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.658988 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
+1901: I0815 07:53:41.659104 20274 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
+1901: I0815 07:53:41.659250 20274 operator.cc:2295] op type:fill_constant, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.659274 20274 interpreter_util.cc:844] fill_constant : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.659364 20274 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
+1901: I0815 07:53:41.659402 20274 interpreter_util.cc:647] Standalone Executor is Used.
+1901: I0815 07:53:41.659451 20274 operator.cc:2295] op type:mean_grad, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.659469 20274 interpreter_util.cc:844] mean_grad : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.659499 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all_grad; inputs: X, Out@GRAD; attributes: ; outputs: X@GRAD
+1901: I0815 07:53:41.659647 20274 operator.cc:2295] op type:nanmedian_grad, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.659675 20274 interpreter_util.cc:844] nanmedian_grad : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.659706 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian_grad; inputs: X, MedianIndex, Out@GRAD; attributes: axis, keepdim, mode; outputs: X@GRAD
+1901: I0815 07:53:41.659875 20274 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.659921 20274 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.659957 20274 scope.cc:202] Create variable X@GRAD_device_Place(gpu:0)_Place(cpu)
+1901: I0815 07:53:41.659973 20274 data_transfer.cc:396] Create Variable X@GRAD_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x45316a10Variable Type 7
+1901: I0815 07:53:41.660012 20274 data_transfer.cc:439] Insert memcpy_d2h with X@GRAD(Place(gpu:0)) -> X@GRAD_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
+1901: I0815 07:53:41.660056 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.660115 20274 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.660148 20274 tensor_utils.cc:57] TensorCopy 100, 100 from Place(gpu:0) to Place(cpu)
+1901: I0815 07:53:41.660310 20274 data_transfer.cc:232] Run memcpy_d2h done.
+1901: I0815 07:53:41.660365 20274 fetch_v2_op.cc:138] Fetch variable X@GRAD_device_Place(gpu:0)_Place(cpu)'s 0 column.
+1901: I0815 07:53:41.661022 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
+1901: I0815 07:53:41.661096 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.662550 20274 op_desc.cc:1111] CompileTime infer shape on nanmedian
+1901: I0815 07:53:41.662607 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.662698 20274 op_desc.cc:1111] CompileTime infer shape on nanmedian
+1901: I0815 07:53:41.662717 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.663494 20274 op_desc.cc:1111] CompileTime infer shape on mean
+1901: I0815 07:53:41.663542 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
+1901: I0815 07:53:41.663589 20274 op_desc.cc:1111] CompileTime infer shape on mean
+1901: I0815 07:53:41.663606 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
+1901: I0815 07:53:41.663944 20274 pybind.cc:1827] need skip: 0
+1901: I0815 07:53:41.664027 20274 pybind.cc:1827] need skip: 0
+1901: I0815 07:53:41.664429 20274 op_desc.cc:1111] CompileTime infer shape on fill_constant
+1901: I0815 07:53:41.664546 20274 op_desc.cc:1111] CompileTime infer shape on mean_grad
+1901: I0815 07:53:41.664568 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all_grad; inputs: X, Out@GRAD; attributes: ; outputs: X@GRAD
+1901: I0815 07:53:41.664655 20274 op_desc.cc:1111] CompileTime infer shape on nanmedian_grad
+1901: I0815 07:53:41.664678 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian_grad; inputs: X, MedianIndex, Out@GRAD; attributes: axis, keepdim, mode; outputs: X@GRAD
+1901: I0815 07:53:41.666970 20274 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1901: I0815 07:53:41.667584 20274 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1901: I0815 07:53:41.667626 20274 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1901: I0815 07:53:41.667642 20274 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1901: I0815 07:53:41.671552 20274 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
+1901: I0815 07:53:41.671610 20274 scope.cc:202] Create variable feed
+1901: I0815 07:53:41.671669 20274 interpreter_util.cc:1169] Creating Variables
+1901: I0815 07:53:41.671687 20274 scope.cc:202] Create variable MedianIndex
+1901: I0815 07:53:41.671701 20274 interpreter_util.cc:1206] Create Variable MedianIndex locally, which pointer is 0x4526d040 type is 7
+1901: I0815 07:53:41.671720 20274 scope.cc:202] Create variable Out
+1901: I0815 07:53:41.671734 20274 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x438b61d0 type is 7
+1901: I0815 07:53:41.671758 20274 scope.cc:202] Create variable Out@GRAD
+1901: I0815 07:53:41.671772 20274 interpreter_util.cc:1206] Create Variable Out@GRAD locally, which pointer is 0x44e95630 type is 7
+1901: I0815 07:53:41.671784 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:41.671797 20274 interpreter_util.cc:1206] Create Variable X locally, which pointer is 0x452552d0 type is 7
+1901: I0815 07:53:41.671809 20274 scope.cc:202] Create variable X@GRAD
+1901: I0815 07:53:41.671821 20274 interpreter_util.cc:1206] Create Variable X@GRAD locally, which pointer is 0x4527e430 type is 7
+1901: I0815 07:53:41.671834 20274 scope.cc:202] Create variable _generated_var_0
+1901: I0815 07:53:41.671846 20274 interpreter_util.cc:1206] Create Variable _generated_var_0 locally, which pointer is 0x4525fb00 type is 7
+1901: I0815 07:53:41.671859 20274 scope.cc:202] Create variable _generated_var_0@GRAD
+1901: I0815 07:53:41.671871 20274 interpreter_util.cc:1206] Create Variable _generated_var_0@GRAD locally, which pointer is 0x452578a0 type is 7
+1901: I0815 07:53:41.671885 20274 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x44e6e5b0 type is 9
+1901: I0815 07:53:41.671898 20274 scope.cc:202] Create variable fetch
+1901: I0815 07:53:41.671911 20274 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x4525fae0 type is 10
+1901: I0815 07:53:41.672034 20274 interpreter_util.cc:594] Static build: 0
+1901: I0815 07:53:41.672050 20274 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1901: I0815 07:53:41.672065 20274 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1901: I0815 07:53:41.672080 20274 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1901: I0815 07:53:41.672160 20274 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.672190 20274 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.672272 20274 operator.cc:2295] op type:nanmedian, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.672293 20274 interpreter_util.cc:844] nanmedian : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.672333 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.672988 20274 operator.cc:2295] op type:mean, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.673034 20274 interpreter_util.cc:844] mean : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.673063 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
+1901: I0815 07:53:41.673139 20274 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
+1901: I0815 07:53:41.673242 20274 operator.cc:2295] op type:fill_constant, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.673266 20274 interpreter_util.cc:844] fill_constant : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.673333 20274 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
+1901: I0815 07:53:41.673405 20274 operator.cc:2295] op type:mean_grad, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.673427 20274 interpreter_util.cc:844] mean_grad : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.673454 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all_grad; inputs: X, Out@GRAD; attributes: ; outputs: X@GRAD
+1901: I0815 07:53:41.673574 20274 operator.cc:2295] op type:nanmedian_grad, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.673600 20274 interpreter_util.cc:844] nanmedian_grad : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.673629 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian_grad; inputs: X, MedianIndex, Out@GRAD; attributes: axis, keepdim, mode; outputs: X@GRAD
+1901: I0815 07:53:41.673781 20274 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.673811 20274 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.673839 20274 scope.cc:202] Create variable X@GRAD_device_Place(gpu:0)_Place(cpu)
+1901: I0815 07:53:41.673856 20274 data_transfer.cc:396] Create Variable X@GRAD_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x45275c80Variable Type 7
+1901: I0815 07:53:41.673887 20274 data_transfer.cc:439] Insert memcpy_d2h with X@GRAD(Place(gpu:0)) -> X@GRAD_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
+1901: I0815 07:53:41.673915 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.673946 20274 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.673971 20274 tensor_utils.cc:57] TensorCopy 100, 100 from Place(gpu:0) to Place(cpu)
+1901: I0815 07:53:41.674046 20274 data_transfer.cc:232] Run memcpy_d2h done.
+1901: I0815 07:53:41.674085 20274 fetch_v2_op.cc:138] Fetch variable X@GRAD_device_Place(gpu:0)_Place(cpu)'s 0 column.
+1901: I0815 07:53:41.674602 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: mean_all; inputs: X; attributes: ; outputs: Out
+1901: I0815 07:53:41.674664 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.676435 20274 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x2498bb0 for it.
+1901: I0815 07:53:41.676707 20274 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a9cc340 for it.
+1901: I0815 07:53:41.676795 20274 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x1a91b780 for it.
+1901: I0815 07:53:41.677717 20274 dygraph_functions.cc:54355] Running AD API: nanmedian
+1901: I0815 07:53:41.677819 20274 dygraph_functions.cc:54415] { Input: [ 
 1901: ( x , [[ Not specified tensor log level ]]), ]} 
-1901: I0815 07:39:08.433544  9730 grad_node_info.cc:394] Add Edges for slot: 0, the Edge is from NanmedianGradNode (addr: 0x44eb6650)  to GradNodeAccumulation (addr: 0x1a2f8f50)
-1901: I0815 07:39:08.433694  9730 dygraph_functions.cc:51757] Running AD API: mean
-1901: I0815 07:39:08.433722  9730 dygraph_functions.cc:51814] { Input: [ 
+1901: I0815 07:53:41.678421 20274 grad_node_info.cc:394] Add Edges for slot: 0, the Edge is from NanmedianGradNode (addr: 0x4532b0f0)  to GradNodeAccumulation (addr: 0x2498bb0)
+1901: I0815 07:53:41.678601 20274 dygraph_functions.cc:51757] Running AD API: mean
+1901: I0815 07:53:41.678658 20274 dygraph_functions.cc:51814] { Input: [ 
 1901: ( x , [[ Not specified tensor log level ]]), ]} 
-1901: I0815 07:39:08.433804  9730 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
-1901: I0815 07:39:08.433827  9730 grad_node_info.cc:394] Add Edges for slot: 0, the Edge is from MeanGradNode (addr: 0x44f54bf0)  to NanmedianGradNode (addr: 0x44eb6650)
-1901: I0815 07:39:08.433912  9730 backward.cc:442] Run in Backward
-1901: I0815 07:39:08.433923  9730 backward.cc:113] Start Backward
-1901: I0815 07:39:08.433948  9730 backward.cc:197] Fill grad input tensor 0 with 1.0
-1901: I0815 07:39:08.434012  9730 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
-1901: I0815 07:39:08.434046  9730 backward.cc:255] Preparing GradNode:MeanGradNode addr:0x44f54bf0
-1901: I0815 07:39:08.434069  9730 nodes.cc:25338] Running AD API GRAD: mean_grad
-1901: I0815 07:39:08.434115  9730 nodes.cc:25394] { Input: [ 
+1901: I0815 07:53:41.678768 20274 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
+1901: I0815 07:53:41.678809 20274 grad_node_info.cc:394] Add Edges for slot: 0, the Edge is from MeanGradNode (addr: 0x40212560)  to NanmedianGradNode (addr: 0x4532b0f0)
+1901: I0815 07:53:41.678922 20274 backward.cc:442] Run in Backward
+1901: I0815 07:53:41.678948 20274 backward.cc:113] Start Backward
+1901: I0815 07:53:41.678983 20274 backward.cc:197] Fill grad input tensor 0 with 1.0
+1901: I0815 07:53:41.679052 20274 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
+1901: I0815 07:53:41.679103 20274 backward.cc:255] Preparing GradNode:MeanGradNode addr:0x40212560
+1901: I0815 07:53:41.679137 20274 nodes.cc:25338] Running AD API GRAD: mean_grad
+1901: I0815 07:53:41.679195 20274 nodes.cc:25394] { Input: [ 
 1901: ( grad_out , [[ Not specified tensor log level ]]),  
 1901: ( x , [[ Not specified tensor log level ]]), ]} 
-1901: I0815 07:39:08.434190  9730 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
-1901: I0815 07:39:08.434218  9730 backward.cc:306] retain_graph is false, need to clear the TensorWrapper of nodes.
-1901: I0815 07:39:08.434230  9730 backward.cc:335] Node: MeanGradNode addr:0x44f54bf0, Found pending node: NanmedianGradNode addr: 0x44eb6650
-1901: I0815 07:39:08.434238  9730 backward.cc:376] Sum or Move grad inputs for edge slot: 0, rank: 0
-1901: I0815 07:39:08.434273  9730 backward.cc:255] Preparing GradNode:NanmedianGradNode addr:0x44eb6650
-1901: I0815 07:39:08.434291  9730 nodes.cc:26680] Running AD API GRAD: nanmedian_grad
-1901: I0815 07:39:08.434327  9730 nodes.cc:26740] { Input: [ 
+1901: I0815 07:53:41.679292 20274 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
+1901: I0815 07:53:41.679368 20274 backward.cc:306] retain_graph is false, need to clear the TensorWrapper of nodes.
+1901: I0815 07:53:41.679392 20274 backward.cc:335] Node: MeanGradNode addr:0x40212560, Found pending node: NanmedianGradNode addr: 0x4532b0f0
+1901: I0815 07:53:41.679411 20274 backward.cc:376] Sum or Move grad inputs for edge slot: 0, rank: 0
+1901: I0815 07:53:41.679462 20274 backward.cc:255] Preparing GradNode:NanmedianGradNode addr:0x4532b0f0
+1901: I0815 07:53:41.679490 20274 nodes.cc:26680] Running AD API GRAD: nanmedian_grad
+1901: I0815 07:53:41.679529 20274 nodes.cc:26740] { Input: [ 
 1901: ( out_grad , [[ Not specified tensor log level ]]),  
 1901: ( x , [[ Not specified tensor log level ]]),  
 1901: ( medians , [[ Not specified tensor log level ]]), ]} 
-1901: I0815 07:39:08.434386  9730 backward.cc:306] retain_graph is false, need to clear the TensorWrapper of nodes.
-1901: I0815 07:39:08.434410  9730 backward.cc:335] Node: NanmedianGradNode addr:0x44eb6650, Found pending node: GradNodeAccumulation addr: 0x1a2f8f50
-1901: I0815 07:39:08.434418  9730 backward.cc:376] Sum or Move grad inputs for edge slot: 0, rank: 0
-1901: I0815 07:39:08.434437  9730 backward.cc:255] Preparing GradNode:GradNodeAccumulation addr:0x1a2f8f50
-1901: I0815 07:39:08.434448  9730 accumulation_node.cc:157] Running AD API Grad: GradNodeAccumulation
-1901: I0815 07:39:08.434456  9730 accumulation_node.cc:40] Move Tensor ptr: 0x44a82690
-1901: I0815 07:39:08.434460  9730 accumulation_node.cc:194] Finish AD API Grad: GradNodeAccumulation
-1901: I0815 07:39:08.434466  9730 backward.cc:306] retain_graph is false, need to clear the TensorWrapper of nodes.
+1901: I0815 07:53:41.679615 20274 backward.cc:306] retain_graph is false, need to clear the TensorWrapper of nodes.
+1901: I0815 07:53:41.679656 20274 backward.cc:335] Node: NanmedianGradNode addr:0x4532b0f0, Found pending node: GradNodeAccumulation addr: 0x2498bb0
+1901: I0815 07:53:41.679677 20274 backward.cc:376] Sum or Move grad inputs for edge slot: 0, rank: 0
+1901: I0815 07:53:41.679705 20274 backward.cc:255] Preparing GradNode:GradNodeAccumulation addr:0x2498bb0
+1901: I0815 07:53:41.679730 20274 accumulation_node.cc:157] Running AD API Grad: GradNodeAccumulation
+1901: I0815 07:53:41.679747 20274 accumulation_node.cc:40] Move Tensor ptr: 0x4527b9a0
+1901: I0815 07:53:41.679762 20274 accumulation_node.cc:194] Finish AD API Grad: GradNodeAccumulation
+1901: I0815 07:53:41.679780 20274 backward.cc:306] retain_graph is false, need to clear the TensorWrapper of nodes.
 1901: /home/code/Paddle/build/python/paddle/base/framework.py:667: VisibleDeprecationWarning: [93m
 1901: Warning:
 1901: API "paddle.base.dygraph.tensor_patch_methods.gradient" is deprecated since 2.1.0, and will be removed in future versions.
 1901:     Reason: Please use tensor.grad, which returns the tensor value of the gradient. [0m
 1901:   return func(*args, **kwargs)
-1901: I0815 07:39:08.443647  9730 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1a2f8f50 for it.
-1901: I0815 07:39:08.443811  9730 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a3d9140 for it.
-1901: I0815 07:39:08.443862  9730 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x1a266690 for it.
+1901: I0815 07:53:41.689875 20274 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x2498bb0 for it.
+1901: I0815 07:53:41.690225 20274 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a91b780 for it.
+1901: I0815 07:53:41.690327 20274 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x1a9cc340 for it.
 1901: IR before lowering = {
 1901:     (%0) = "pd_op.data" () {dtype:(pd_op.DataType)float16,name:"X",place:(pd_op.Place)Place(undefined:0),shape:(pd_op.IntArray)[100,100],stop_gradient:[false]} : () -> builtin.tensor<100x100xf16>
 1901:     (%1, %2) = "pd_op.nanmedian" (%0) {axis:(pd_op.IntArray)[],keepdim:false,mode:"avg",stop_gradient:[false,true]} : (builtin.tensor<100x100xf16>) -> builtin.tensor<f16>, builtin.tensor<2xi64>
@@ -247,22 +247,22 @@ test 1901
 1901:     (%10) = "fetch(phi_kernel)" (%9) {col:(Int32)0,kernel_key:<backend:CPU|layout:Undefined(AnyLayout)|dtype:float16>,kernel_name:"fetch",name:"fetch0",op_name:"pd_op.fetch",persistable:[true],stop_gradient:[false]} : (cpu_tensor<100x100xf16>) -> cpu_tensor<100x100xf16>
 1901: }
 1901: 
-1901: I0815 07:39:08.496798  9730 pir_interpreter.cc:161] PirInterpreter(): 0x47300e40 on Place(gpu:0)
-1901: I0815 07:39:08.496848  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.496877  9730 scope.cc:202] Create variable 0x47300e401723707548496826241_inner_var_1
-1901: I0815 07:39:08.496887  9730 scope.cc:202] Create variable 0x47300e401723707548496826241_inner_var_2
-1901: I0815 07:39:08.496894  9730 scope.cc:202] Create variable 0x47300e401723707548496826241_inner_var_3
-1901: I0815 07:39:08.496903  9730 scope.cc:202] Create variable 0x47300e401723707548496826241_inner_var_4
-1901: I0815 07:39:08.496910  9730 scope.cc:202] Create variable 0x47300e401723707548496826241_inner_var_5
-1901: I0815 07:39:08.496918  9730 scope.cc:202] Create variable 0x47300e401723707548496826241_inner_var_6
-1901: I0815 07:39:08.496924  9730 scope.cc:202] Create variable 0x47300e401723707548496826241_inner_var_7
-1901: I0815 07:39:08.496932  9730 scope.cc:202] Create variable 0x47300e401723707548496826241_inner_var_8
-1901: I0815 07:39:08.496939  9730 scope.cc:202] Create variable 0x47300e401723707548496826241_inner_var_9
-1901: I0815 07:39:08.496946  9730 scope.cc:202] Create variable fetch0@fetch
-1901: I0815 07:39:08.497363  9730 feed_fetch_method.cc:53] SetFeedVariable name=X index=0
-1901: I0815 07:39:08.497378  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.497382  9730 feed_fetch_method.cc:58] Reset X to phi::DenseTensor
-1901: I0815 07:39:08.497427  9730 pir_interpreter.cc:1455] New Executor is Running ...
+1901: I0815 07:53:41.757035 20274 pir_interpreter.cc:161] PirInterpreter(): 0x47583e20 on Place(gpu:0)
+1901: I0815 07:53:41.757103 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:41.757145 20274 scope.cc:202] Create variable 0x47583e201723708421757084910_inner_var_1
+1901: I0815 07:53:41.757165 20274 scope.cc:202] Create variable 0x47583e201723708421757084910_inner_var_2
+1901: I0815 07:53:41.757182 20274 scope.cc:202] Create variable 0x47583e201723708421757084910_inner_var_3
+1901: I0815 07:53:41.757198 20274 scope.cc:202] Create variable 0x47583e201723708421757084910_inner_var_4
+1901: I0815 07:53:41.757215 20274 scope.cc:202] Create variable 0x47583e201723708421757084910_inner_var_5
+1901: I0815 07:53:41.757230 20274 scope.cc:202] Create variable 0x47583e201723708421757084910_inner_var_6
+1901: I0815 07:53:41.757246 20274 scope.cc:202] Create variable 0x47583e201723708421757084910_inner_var_7
+1901: I0815 07:53:41.757261 20274 scope.cc:202] Create variable 0x47583e201723708421757084910_inner_var_8
+1901: I0815 07:53:41.757277 20274 scope.cc:202] Create variable 0x47583e201723708421757084910_inner_var_9
+1901: I0815 07:53:41.757293 20274 scope.cc:202] Create variable fetch0@fetch
+1901: I0815 07:53:41.757753 20274 feed_fetch_method.cc:53] SetFeedVariable name=X index=0
+1901: I0815 07:53:41.757797 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:41.757812 20274 feed_fetch_method.cc:58] Reset X to phi::DenseTensor
+1901: I0815 07:53:41.757871 20274 pir_interpreter.cc:1455] New Executor is Running ...
 1901: ======================== The network executed by pir interpreter ========================
 1901: {
 1901:     (%0) = "data(phi_kernel)" () {dtype:(pd_op.DataType)float16,kernel_key:<backend:Undefined|layout:Undefined(AnyLayout)|dtype:float16>,kernel_name:"data",name:"X",op_name:"pd_op.data",place:(pd_op.Place)Place(undefined:0),shape:(pd_op.IntArray)[100,100],stop_gradient:[false]} : () -> undefined_tensor<100x100xf16>
@@ -289,17 +289,17 @@ test 1901
 1901: 7: ( 9 )  = pd_op.memcpy_d2h ( 8 ) 
 1901: 8: ( 10 )  = pd_op.fetch ( 9 ) 
 1901: ---------------------------var_id -> var_name -> variable*---------------------------
-1901: 0 -> X -> 0x47300dc0
-1901: 1 -> 0x47300e401723707548496826241_inner_var_1 -> 0x47300e20
-1901: 2 -> 0x47300e401723707548496826241_inner_var_2 -> 0x472fcff0
-1901: 3 -> 0x47300e401723707548496826241_inner_var_3 -> 0x472fd510
-1901: 4 -> 0x47300e401723707548496826241_inner_var_4 -> 0x472ff470
-1901: 5 -> 0x47300e401723707548496826241_inner_var_5 -> 0x47301470
-1901: 6 -> 0x47300e401723707548496826241_inner_var_6 -> 0x47301890
-1901: 7 -> 0x47300e401723707548496826241_inner_var_7 -> 0x47301cb0
-1901: 8 -> 0x47300e401723707548496826241_inner_var_8 -> 0x472ffcf0
-1901: 9 -> 0x47300e401723707548496826241_inner_var_9 -> 0x473020d0
-1901: 10 -> fetch0@fetch -> 0x473028e0
+1901: 0 -> X -> 0x47583de0
+1901: 1 -> 0x47583e201723708421757084910_inner_var_1 -> 0x47583e00
+1901: 2 -> 0x47583e201723708421757084910_inner_var_2 -> 0x47581200
+1901: 3 -> 0x47583e201723708421757084910_inner_var_3 -> 0x47583510
+1901: 4 -> 0x47583e201723708421757084910_inner_var_4 -> 0x47581d60
+1901: 5 -> 0x47583e201723708421757084910_inner_var_5 -> 0x47580040
+1901: 6 -> 0x47583e201723708421757084910_inner_var_6 -> 0x475848e0
+1901: 7 -> 0x47583e201723708421757084910_inner_var_7 -> 0x47584d00
+1901: 8 -> 0x47583e201723708421757084910_inner_var_8 -> 0x47582cd0
+1901: 9 -> 0x47583e201723708421757084910_inner_var_9 -> 0x47585120
+1901: 10 -> fetch0@fetch -> 0x47585930
 1901: 
 1901: 
 1901: ======================= The dependency of all instruction ========================
@@ -326,196 +326,197 @@ test 1901
 1901: 6 downstreams: 7[pd_op.memcpy_d2h]->
 1901: 7 downstreams: 8[pd_op.fetch]->
 1901: 8 downstreams: 
-1901: I0815 07:39:08.498363  9730 pir_interpreter.cc:1481] pir interpreter is running by multi-thread mode ...
-1901: I0815 07:39:08.498580  9767 nonblocking_threadpool.h:251] GarbageCollector_thread_0 started 
-1901: I0815 07:39:08.498687  9768 nonblocking_threadpool.h:251] HostTasks_thread_0 started 
-1901: I0815 07:39:08.498692  9769 nonblocking_threadpool.h:251] HostTasks_thread_1 started 
-1901: I0815 07:39:08.498821  9771 nonblocking_threadpool.h:251] HostTasks_thread_3 started 
-1901: I0815 07:39:08.498821  9770 nonblocking_threadpool.h:251] HostTasks_thread_2 started 
-1901: I0815 07:39:08.498852  9769 pir_interpreter.cc:1876] 
+1901: I0815 07:53:41.759105 20274 pir_interpreter.cc:1481] pir interpreter is running by multi-thread mode ...
+1901: I0815 07:53:41.759323 20311 nonblocking_threadpool.h:251] GarbageCollector_thread_0 started 
+1901: I0815 07:53:41.759516 20313 nonblocking_threadpool.h:251] HostTasks_thread_1 started 
+1901: I0815 07:53:41.768378 20316 nonblocking_threadpool.h:251] DeviceKernelLaunch_thread_0 started 
+1901: I0815 07:53:41.768477 20316 pir_interpreter.cc:1876] 
+1901: begin: RunInstructionBase OP id:0 name:pd_op.shadow_feed type:kGpuAsync runs on DeviceKernelLaunch_thread_0
+1901: Before: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_1:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:41.768554 20316 pir_interpreter.cc:1916] 
+1901: done: RunInstructionBase OP id:0 name:pd_op.shadow_feed type:kGpuAsync runs on DeviceKernelLaunch_thread_0
+1901: After: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}.
+1901: I0815 07:53:41.768622 20316 pir_interpreter.cc:1876] 
+1901: begin: RunInstructionBase OP id:1 name:pd_op.nanmedian type:kGpuAsync runs on DeviceKernelLaunch_thread_0
+1901: Before: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x47583e201723708421757084910_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_3:[dtype=;place=;dim=;lod={};, 0x47583e201723708421757084910_inner_var_2:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:41.768828 20313 pir_interpreter.cc:1876] 
 1901: begin: RunInstructionBase OP id:3 name:pd_op.full type:kCpuSync runs on HostTasks_thread_1
-1901: Before: Place(cpu) Op(pd_op.full), inputs:{}, outputs:{0x47300e401723707548496826241_inner_var_5:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.498880  9772 nonblocking_threadpool.h:251] DeviceKernelLaunch_thread_0 started 
-1901: I0815 07:39:08.498944  9772 pir_interpreter.cc:1876] 
-1901: begin: RunInstructionBase OP id:0 name:pd_op.shadow_feed type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_1:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.498975  9769 pir_interpreter.cc:1916] 
+1901: Before: Place(cpu) Op(pd_op.full), inputs:{}, outputs:{0x47583e201723708421757084910_inner_var_5:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:41.768950 20313 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:3 name:pd_op.full type:kCpuSync runs on HostTasks_thread_1
-1901: After: Place(cpu) Op(pd_op.full), inputs:{}, outputs:{0x47300e401723707548496826241_inner_var_5:[dtype=float;place=Place(cpu);dim=1;lod={};]}.
-1901: I0815 07:39:08.498996  9772 pir_interpreter.cc:1916] 
-1901: done: RunInstructionBase OP id:0 name:pd_op.shadow_feed type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}.
-1901: I0815 07:39:08.499053  9772 pir_interpreter.cc:1876] 
-1901: begin: RunInstructionBase OP id:1 name:pd_op.nanmedian type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x47300e401723707548496826241_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_3:[dtype=;place=;dim=;lod={};, 0x47300e401723707548496826241_inner_var_2:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.499562  9772 pir_interpreter.cc:1916] 
+1901: After: Place(cpu) Op(pd_op.full), inputs:{}, outputs:{0x47583e201723708421757084910_inner_var_5:[dtype=float;place=Place(cpu);dim=1;lod={};]}.
+1901: I0815 07:53:41.769198 20316 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:1 name:pd_op.nanmedian type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x47300e401723707548496826241_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};, 0x47300e401723707548496826241_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
-1901: I0815 07:39:08.499594  9772 pir_interpreter.cc:1876] 
+1901: After: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x47583e201723708421757084910_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};, 0x47583e201723708421757084910_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
+1901: I0815 07:53:41.769234 20316 pir_interpreter.cc:1876] 
 1901: begin: RunInstructionBase OP id:2 name:pd_op.mean type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.mean), inputs:{0x47300e401723707548496826241_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_4:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.499646  9772 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
-1901: I0815 07:39:08.499662  9772 pir_interpreter.cc:1916] 
+1901: Before: Place(gpu:0) Op(pd_op.mean), inputs:{0x47583e201723708421757084910_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_4:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:41.769286 20316 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
+1901: I0815 07:53:41.769306 20316 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:2 name:pd_op.mean type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.mean), inputs:{0x47300e401723707548496826241_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_4:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
-1901: I0815 07:39:08.499689  9772 pir_interpreter.cc:1876] 
+1901: After: Place(gpu:0) Op(pd_op.mean), inputs:{0x47583e201723708421757084910_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_4:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
+1901: I0815 07:53:41.769336 20315 nonblocking_threadpool.h:251] HostTasks_thread_3 started 
+1901: I0815 07:53:41.770373 20312 nonblocking_threadpool.h:251] HostTasks_thread_0 started 
+1901: I0815 07:53:41.770471 20314 nonblocking_threadpool.h:251] HostTasks_thread_2 started 
+1901: I0815 07:53:41.769336 20316 pir_interpreter.cc:1876] 
 1901: begin: RunInstructionBase OP id:4 name:pd_op.full_like type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.full_like), inputs:{0x47300e401723707548496826241_inner_var_5:[dtype=float;place=Place(cpu);dim=1;lod={};], 0x47300e401723707548496826241_inner_var_4:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_6:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.499740  9772 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
-1901: I0815 07:39:08.499812  9772 pir_interpreter.cc:1916] 
+1901: Before: Place(gpu:0) Op(pd_op.full_like), inputs:{0x47583e201723708421757084910_inner_var_5:[dtype=float;place=Place(cpu);dim=1;lod={};], 0x47583e201723708421757084910_inner_var_4:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_6:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:41.773427 20316 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
+1901: I0815 07:53:41.773473 20316 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:4 name:pd_op.full_like type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.full_like), inputs:{0x47300e401723707548496826241_inner_var_5:[dtype=float;place=Place(cpu);dim=1;lod={};], 0x47300e401723707548496826241_inner_var_4:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_6:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
-1901: I0815 07:39:08.499872  9772 pir_interpreter.cc:1876] 
+1901: After: Place(gpu:0) Op(pd_op.full_like), inputs:{0x47583e201723708421757084910_inner_var_5:[dtype=float;place=Place(cpu);dim=1;lod={};], 0x47583e201723708421757084910_inner_var_4:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_6:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
+1901: I0815 07:53:41.773542 20316 pir_interpreter.cc:1876] 
 1901: begin: RunInstructionBase OP id:5 name:pd_op.mean_grad type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.mean_grad), inputs:{0x47300e401723707548496826241_inner_var_6:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};], 0x47300e401723707548496826241_inner_var_2:[dtype=unknown_dtype;place=unknown_place;dim=;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_7:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.499953  9772 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
-1901: I0815 07:39:08.499972  9772 pir_interpreter.cc:1916] 
+1901: Before: Place(gpu:0) Op(pd_op.mean_grad), inputs:{0x47583e201723708421757084910_inner_var_6:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};], 0x47583e201723708421757084910_inner_var_2:[dtype=unknown_dtype;place=unknown_place;dim=;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_7:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:41.773603 20316 gpu_launch_config.h:156] Get 1-D launch config: numel=1, vec_size=4, block_size=64, grid_size=1, limit_blocks=2147483647, limit_threads=512
+1901: I0815 07:53:41.777347 20316 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:5 name:pd_op.mean_grad type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.mean_grad), inputs:{0x47300e401723707548496826241_inner_var_6:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};], 0x47300e401723707548496826241_inner_var_2:[dtype=unknown_dtype;place=unknown_place;dim=;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_7:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
-1901: I0815 07:39:08.499996  9772 pir_interpreter.cc:1876] 
+1901: After: Place(gpu:0) Op(pd_op.mean_grad), inputs:{0x47583e201723708421757084910_inner_var_6:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};], 0x47583e201723708421757084910_inner_var_2:[dtype=unknown_dtype;place=unknown_place;dim=;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_7:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
+1901: I0815 07:53:41.777429 20316 pir_interpreter.cc:1876] 
 1901: begin: RunInstructionBase OP id:6 name:pd_op.nanmedian_grad type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.nanmedian_grad), inputs:{0x47300e401723707548496826241_inner_var_7:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};], 0x47300e401723707548496826241_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};], 0x47300e401723707548496826241_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_8:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.500079  9772 pir_interpreter.cc:1916] 
+1901: Before: Place(gpu:0) Op(pd_op.nanmedian_grad), inputs:{0x47583e201723708421757084910_inner_var_7:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};], 0x47583e201723708421757084910_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};], 0x47583e201723708421757084910_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_8:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:41.777545 20316 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:6 name:pd_op.nanmedian_grad type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.nanmedian_grad), inputs:{0x47300e401723707548496826241_inner_var_7:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};], 0x47300e401723707548496826241_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};], 0x47300e401723707548496826241_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_8:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}.
-1901: I0815 07:39:08.500151  9769 pir_interpreter.cc:1876] 
-1901: begin: RunInstructionBase OP id:7 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_1
-1901: Before: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x47300e401723707548496826241_inner_var_8:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_9:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.500176  9769 tensor_utils.cc:57] TensorCopy 100, 100 from Place(gpu:0) to Place(cpu)
-1901: I0815 07:39:08.500276  9769 pir_interpreter.cc:1916] 
-1901: done: RunInstructionBase OP id:7 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_1
-1901: After: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x47300e401723707548496826241_inner_var_8:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47300e401723707548496826241_inner_var_9:[dtype=::phi::dtype::float16;place=Place(cpu);dim=100, 100;lod={};]}.
-1901: I0815 07:39:08.500312  9769 pir_interpreter.cc:1876] 
-1901: begin: RunInstructionBase OP id:8 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_1
-1901: Before: Place(cpu) Op(pd_op.fetch), inputs:{0x47300e401723707548496826241_inner_var_9:[dtype=::phi::dtype::float16;place=Place(cpu);dim=100, 100;lod={};]}, outputs:{fetch0@fetch:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.500336  9769 tensor_utils.cc:57] TensorCopy 100, 100 from Place(cpu) to Place(cpu)
-1901: I0815 07:39:08.500366  9769 pir_interpreter.cc:1916] 
-1901: done: RunInstructionBase OP id:8 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_1
-1901: After: Place(cpu) Op(pd_op.fetch), inputs:{0x47300e401723707548496826241_inner_var_9:[dtype=::phi::dtype::float16;place=Place(cpu);dim=100, 100;lod={};]}, outputs:{fetch0@fetch:[dtype=::phi::dtype::float16;place=Place(cpu);dim=100, 100;lod={};]}.
-1901: I0815 07:39:08.500398  9730 pir_interpreter.cc:1766] main_thread_blocker_(0x47300fb0) got event_name: TaskCompletion
-1901: I0815 07:39:08.500427  9730 tensor_util.cc:48] TensorCopy 100, 100 from Place(cpu) to Place(cpu)
-1901: I0815 07:39:08.503619  9730 op_desc.cc:1111] CompileTime infer shape on nanmedian
-1901: I0815 07:39:08.503648  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.503710  9730 op_desc.cc:1111] CompileTime infer shape on nanmedian
-1901: I0815 07:39:08.503720  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.504906  9767 thread_data_registry.h:135] Add data {current : -20004, peak : 0} from thread 15066181127290441990 to 16508900563936194976 , after update, data is {current : -20004, peak : 16}.
-1901: I0815 07:39:08.504925  9767 thread_data_registry.h:135] Add data {current : -20024, peak : 0} from thread 15066181127290441990 to 16508900563936194976 , after update, data is {current : 0, peak : 330659}.
-1901: I0815 07:39:08.505100  9769 thread_data_registry.h:135] Add data {current : 40004, peak : 40004} from thread 10105383001802091503 to 16508900563936194976 , after update, data is {current : 20000, peak : 40004}.
-1901: I0815 07:39:08.505296  9772 thread_data_registry.h:135] Add data {current : 20000, peak : 40004} from thread 16508900563936194976 to 421519584472845548 , after update, data is {current : 20000, peak : 40004}.
-1901: I0815 07:39:08.505312  9772 thread_data_registry.h:135] Add data {current : 0, peak : 330659} from thread 16508900563936194976 to 421519584472845548 , after update, data is {current : 120000, peak : 440631}.
-1901: I0815 07:39:08.506695  9730 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1901: I0815 07:39:08.507272  9730 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1901: I0815 07:39:08.507761  9730 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1901: I0815 07:39:08.507778  9730 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1901: I0815 07:39:08.507784  9730 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1901: I0815 07:39:08.510097  9730 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
-1901: I0815 07:39:08.510115  9730 scope.cc:202] Create variable feed
-1901: I0815 07:39:08.510149  9730 interpreter_util.cc:1169] Creating Variables
-1901: I0815 07:39:08.510159  9730 scope.cc:202] Create variable MedianIndex
-1901: I0815 07:39:08.510164  9730 interpreter_util.cc:1206] Create Variable MedianIndex locally, which pointer is 0x4731dd80 type is 7
-1901: I0815 07:39:08.510172  9730 scope.cc:202] Create variable Out
-1901: I0815 07:39:08.510178  9730 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x4731d310 type is 7
-1901: I0815 07:39:08.510185  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.510188  9730 interpreter_util.cc:1206] Create Variable X locally, which pointer is 0x4731dd00 type is 7
-1901: I0815 07:39:08.510195  9730 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x4731d330 type is 9
-1901: I0815 07:39:08.510202  9730 scope.cc:202] Create variable fetch
-1901: I0815 07:39:08.510207  9730 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x4731e130 type is 10
-1901: I0815 07:39:08.510282  9730 interpreter_util.cc:594] Static build: 0
-1901: I0815 07:39:08.510289  9730 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1901: I0815 07:39:08.510294  9730 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1901: I0815 07:39:08.510308  9730 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1901: I0815 07:39:08.510365  9730 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.510378  9730 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.510445  9730 operator.cc:2295] op type:nanmedian, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.510457  9730 interpreter_util.cc:844] nanmedian : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.510476  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.510980  9730 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.510998  9730 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.511016  9730 scope.cc:202] Create variable Out_device_Place(gpu:0)_Place(cpu)
-1901: I0815 07:39:08.511024  9730 data_transfer.cc:396] Create Variable Out_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x47322110Variable Type 7
-1901: I0815 07:39:08.511044  9730 data_transfer.cc:439] Insert memcpy_d2h with Out(Place(gpu:0)) -> Out_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
-1901: I0815 07:39:08.511065  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.511088  9730 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.511106  9730 tensor_utils.cc:57] TensorCopy 1, 1 from Place(gpu:0) to Place(cpu)
-1901: I0815 07:39:08.511147  9730 data_transfer.cc:232] Run memcpy_d2h done.
-1901: I0815 07:39:08.511173  9730 fetch_v2_op.cc:138] Fetch variable Out_device_Place(gpu:0)_Place(cpu)'s 0 column.
-1901: I0815 07:39:08.511220  9730 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.511230  9730 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.511247  9730 scope.cc:202] Create variable MedianIndex_device_Place(gpu:0)_Place(cpu)
-1901: I0815 07:39:08.511255  9730 data_transfer.cc:396] Create Variable MedianIndex_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x47322620Variable Type 7
-1901: I0815 07:39:08.511269  9730 data_transfer.cc:439] Insert memcpy_d2h with MedianIndex(Place(gpu:0)) -> MedianIndex_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
-1901: I0815 07:39:08.511284  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.511314  9730 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.511329  9730 tensor_utils.cc:57] TensorCopy 1, 1, 2 from Place(gpu:0) to Place(cpu)
-1901: I0815 07:39:08.511365  9730 data_transfer.cc:232] Run memcpy_d2h done.
-1901: I0815 07:39:08.511394  9730 fetch_v2_op.cc:138] Fetch variable MedianIndex_device_Place(gpu:0)_Place(cpu)'s 1 column.
-1901: I0815 07:39:08.511682  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.511711  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.513025  9730 op_desc.cc:1111] CompileTime infer shape on nanmedian
-1901: I0815 07:39:08.513049  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.513103  9730 op_desc.cc:1111] CompileTime infer shape on nanmedian
-1901: I0815 07:39:08.513113  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.515044  9730 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1901: I0815 07:39:08.515641  9730 op_desc.cc:1111] CompileTime infer shape on fetch_v2
-1901: I0815 07:39:08.516077  9730 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1901: I0815 07:39:08.516093  9730 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1901: I0815 07:39:08.516098  9730 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1901: I0815 07:39:08.518352  9730 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
-1901: I0815 07:39:08.518427  9730 interpreter_util.cc:1169] Creating Variables
-1901: I0815 07:39:08.518438  9730 scope.cc:202] Create variable MedianIndex
-1901: I0815 07:39:08.518445  9730 interpreter_util.cc:1206] Create Variable MedianIndex locally, which pointer is 0x47354580 type is 7
-1901: I0815 07:39:08.518452  9730 scope.cc:202] Create variable Out
-1901: I0815 07:39:08.518460  9730 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x473538b0 type is 7
-1901: I0815 07:39:08.518465  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.518471  9730 interpreter_util.cc:1206] Create Variable X locally, which pointer is 0x473542b0 type is 7
-1901: I0815 07:39:08.518476  9730 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x4731d330 type is 9
-1901: I0815 07:39:08.518483  9730 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x4731e130 type is 10
-1901: I0815 07:39:08.518555  9730 interpreter_util.cc:594] Static build: 0
-1901: I0815 07:39:08.518563  9730 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
-1901: I0815 07:39:08.518568  9730 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
-1901: I0815 07:39:08.518571  9730 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
-1901: I0815 07:39:08.518613  9730 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.518626  9730 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.518682  9730 operator.cc:2295] op type:nanmedian, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.518692  9730 interpreter_util.cc:844] nanmedian : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.518709  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
-1901: I0815 07:39:08.519238  9730 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.519255  9730 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.519274  9730 scope.cc:202] Create variable Out_device_Place(gpu:0)_Place(cpu)
-1901: I0815 07:39:08.519282  9730 data_transfer.cc:396] Create Variable Out_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x47358a40Variable Type 7
-1901: I0815 07:39:08.519308  9730 data_transfer.cc:439] Insert memcpy_d2h with Out(Place(gpu:0)) -> Out_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
-1901: I0815 07:39:08.519326  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.519349  9730 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.519366  9730 tensor_utils.cc:57] TensorCopy 1, 1 from Place(gpu:0) to Place(cpu)
-1901: I0815 07:39:08.519407  9730 data_transfer.cc:232] Run memcpy_d2h done.
-1901: I0815 07:39:08.519429  9730 fetch_v2_op.cc:138] Fetch variable Out_device_Place(gpu:0)_Place(cpu)'s 0 column.
-1901: I0815 07:39:08.519475  9730 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.519486  9730 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
-1901: I0815 07:39:08.519503  9730 scope.cc:202] Create variable MedianIndex_device_Place(gpu:0)_Place(cpu)
-1901: I0815 07:39:08.519511  9730 data_transfer.cc:396] Create Variable MedianIndex_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x47358a60Variable Type 7
-1901: I0815 07:39:08.519526  9730 data_transfer.cc:439] Insert memcpy_d2h with MedianIndex(Place(gpu:0)) -> MedianIndex_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
-1901: I0815 07:39:08.519539  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.519558  9730 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
-1901: I0815 07:39:08.519573  9730 tensor_utils.cc:57] TensorCopy 1, 1, 2 from Place(gpu:0) to Place(cpu)
-1901: I0815 07:39:08.519608  9730 data_transfer.cc:232] Run memcpy_d2h done.
-1901: I0815 07:39:08.519629  9730 fetch_v2_op.cc:138] Fetch variable MedianIndex_device_Place(gpu:0)_Place(cpu)'s 1 column.
-1901: I0815 07:39:08.519896  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.519924  9730 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
-1901: I0815 07:39:08.638839  9730 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1a266690 for it.
-1901: I0815 07:39:08.639271  9730 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a3d9140 for it.
-1901: I0815 07:39:08.639351  9730 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x1a2f8f50 for it.
-1901: I0815 07:39:08.639992  9730 dygraph_functions.cc:54355] Running AD API: nanmedian
-1901: I0815 07:39:08.640043  9730 dygraph_functions.cc:54415] { Input: [ 
+1901: After: Place(gpu:0) Op(pd_op.nanmedian_grad), inputs:{0x47583e201723708421757084910_inner_var_7:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};], 0x47583e201723708421757084910_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};], 0x47583e201723708421757084910_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_8:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}.
+1901: I0815 07:53:41.778376 20314 pir_interpreter.cc:1876] 
+1901: begin: RunInstructionBase OP id:7 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_2
+1901: Before: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x47583e201723708421757084910_inner_var_8:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_9:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:41.778430 20314 tensor_utils.cc:57] TensorCopy 100, 100 from Place(gpu:0) to Place(cpu)
+1901: I0815 07:53:41.778551 20314 pir_interpreter.cc:1916] 
+1901: done: RunInstructionBase OP id:7 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_2
+1901: After: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x47583e201723708421757084910_inner_var_8:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47583e201723708421757084910_inner_var_9:[dtype=::phi::dtype::float16;place=Place(cpu);dim=100, 100;lod={};]}.
+1901: I0815 07:53:41.778586 20314 pir_interpreter.cc:1876] 
+1901: begin: RunInstructionBase OP id:8 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_2
+1901: Before: Place(cpu) Op(pd_op.fetch), inputs:{0x47583e201723708421757084910_inner_var_9:[dtype=::phi::dtype::float16;place=Place(cpu);dim=100, 100;lod={};]}, outputs:{fetch0@fetch:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:41.778613 20314 tensor_utils.cc:57] TensorCopy 100, 100 from Place(cpu) to Place(cpu)
+1901: I0815 07:53:41.778643 20314 pir_interpreter.cc:1916] 
+1901: done: RunInstructionBase OP id:8 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_2
+1901: After: Place(cpu) Op(pd_op.fetch), inputs:{0x47583e201723708421757084910_inner_var_9:[dtype=::phi::dtype::float16;place=Place(cpu);dim=100, 100;lod={};]}, outputs:{fetch0@fetch:[dtype=::phi::dtype::float16;place=Place(cpu);dim=100, 100;lod={};]}.
+1901: I0815 07:53:41.778671 20274 pir_interpreter.cc:1766] main_thread_blocker_(0x47583f90) got event_name: TaskCompletion
+1901: I0815 07:53:41.778697 20274 tensor_util.cc:48] TensorCopy 100, 100 from Place(cpu) to Place(cpu)
+1901: I0815 07:53:41.782114 20274 op_desc.cc:1111] CompileTime infer shape on nanmedian
+1901: I0815 07:53:41.782153 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.782228 20274 op_desc.cc:1111] CompileTime infer shape on nanmedian
+1901: I0815 07:53:41.782236 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.786366 20311 thread_data_registry.h:135] Add data {current : -20004, peak : 0} from thread 3767995444797150129 to 9450346398991086960 , after update, data is {current : 19996, peak : 40000}.
+1901: I0815 07:53:41.786396 20311 thread_data_registry.h:135] Add data {current : -20024, peak : 0} from thread 3767995444797150129 to 15513835958774728676 , after update, data is {current : 0, peak : 330659}.
+1901: I0815 07:53:41.790552 20314 thread_data_registry.h:135] Add data {current : 19996, peak : 40000} from thread 9450346398991086960 to 17244507213171678662 , after update, data is {current : 20000, peak : 40000}.
+1901: I0815 07:53:41.791389 20313 thread_data_registry.h:135] Add data {current : 20000, peak : 40000} from thread 17244507213171678662 to 15513835958774728676 , after update, data is {current : 20000, peak : 40000}.
+1901: I0815 07:53:41.798497 20316 thread_data_registry.h:135] Add data {current : 20000, peak : 40000} from thread 15513835958774728676 to 15771674105092425647 , after update, data is {current : 20000, peak : 40000}.
+1901: I0815 07:53:41.798530 20316 thread_data_registry.h:135] Add data {current : 0, peak : 330659} from thread 15513835958774728676 to 15771674105092425647 , after update, data is {current : 120000, peak : 440631}.
+1901: I0815 07:53:41.802904 20274 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1901: I0815 07:53:41.803403 20274 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1901: I0815 07:53:41.803885 20274 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1901: I0815 07:53:41.803895 20274 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1901: I0815 07:53:41.803900 20274 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1901: I0815 07:53:41.807075 20274 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
+1901: I0815 07:53:41.807101 20274 scope.cc:202] Create variable feed
+1901: I0815 07:53:41.807150 20274 interpreter_util.cc:1169] Creating Variables
+1901: I0815 07:53:41.807157 20274 scope.cc:202] Create variable MedianIndex
+1901: I0815 07:53:41.807163 20274 interpreter_util.cc:1206] Create Variable MedianIndex locally, which pointer is 0x475b1650 type is 7
+1901: I0815 07:53:41.807169 20274 scope.cc:202] Create variable Out
+1901: I0815 07:53:41.807173 20274 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x475b0be0 type is 7
+1901: I0815 07:53:41.807176 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:41.807179 20274 interpreter_util.cc:1206] Create Variable X locally, which pointer is 0x475b15d0 type is 7
+1901: I0815 07:53:41.807183 20274 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x475b0c00 type is 9
+1901: I0815 07:53:41.807188 20274 scope.cc:202] Create variable fetch
+1901: I0815 07:53:41.807191 20274 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x475b19b0 type is 10
+1901: I0815 07:53:41.807263 20274 interpreter_util.cc:594] Static build: 0
+1901: I0815 07:53:41.807268 20274 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1901: I0815 07:53:41.807272 20274 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1901: I0815 07:53:41.807276 20274 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1901: I0815 07:53:41.807350 20274 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.807366 20274 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.807439 20274 operator.cc:2295] op type:nanmedian, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.807446 20274 interpreter_util.cc:844] nanmedian : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.807466 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.808032 20274 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.808045 20274 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.808063 20274 scope.cc:202] Create variable Out_device_Place(gpu:0)_Place(cpu)
+1901: I0815 07:53:41.808068 20274 data_transfer.cc:396] Create Variable Out_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x475b59f0Variable Type 7
+1901: I0815 07:53:41.808087 20274 data_transfer.cc:439] Insert memcpy_d2h with Out(Place(gpu:0)) -> Out_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
+1901: I0815 07:53:41.808105 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.808127 20274 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[::phi::dtype::float16]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.808141 20274 tensor_utils.cc:57] TensorCopy 1, 1 from Place(gpu:0) to Place(cpu)
+1901: I0815 07:53:41.808183 20274 data_transfer.cc:232] Run memcpy_d2h done.
+1901: I0815 07:53:41.808207 20274 fetch_v2_op.cc:138] Fetch variable Out_device_Place(gpu:0)_Place(cpu)'s 0 column.
+1901: I0815 07:53:41.808250 20274 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.808257 20274 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.808272 20274 scope.cc:202] Create variable MedianIndex_device_Place(gpu:0)_Place(cpu)
+1901: I0815 07:53:41.808276 20274 data_transfer.cc:396] Create Variable MedianIndex_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x475b96c0Variable Type 7
+1901: I0815 07:53:41.808288 20274 data_transfer.cc:439] Insert memcpy_d2h with MedianIndex(Place(gpu:0)) -> MedianIndex_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
+1901: I0815 07:53:41.808297 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.808323 20274 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.808334 20274 tensor_utils.cc:57] TensorCopy 1, 1, 2 from Place(gpu:0) to Place(cpu)
+1901: I0815 07:53:41.808364 20274 data_transfer.cc:232] Run memcpy_d2h done.
+1901: I0815 07:53:41.808390 20274 fetch_v2_op.cc:138] Fetch variable MedianIndex_device_Place(gpu:0)_Place(cpu)'s 1 column.
+1901: I0815 07:53:41.808677 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.808707 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.810063 20274 op_desc.cc:1111] CompileTime infer shape on nanmedian
+1901: I0815 07:53:41.810083 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.810137 20274 op_desc.cc:1111] CompileTime infer shape on nanmedian
+1901: I0815 07:53:41.810142 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.815160 20274 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1901: I0815 07:53:41.815647 20274 op_desc.cc:1111] CompileTime infer shape on fetch_v2
+1901: I0815 07:53:41.816051 20274 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1901: I0815 07:53:41.816061 20274 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1901: I0815 07:53:41.816066 20274 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1901: I0815 07:53:41.821192 20274 feed_fetch_method.cc:53] SetFeedVariable name=feed index=0
+1901: I0815 07:53:41.821336 20274 interpreter_util.cc:1169] Creating Variables
+1901: I0815 07:53:41.821345 20274 scope.cc:202] Create variable MedianIndex
+1901: I0815 07:53:41.821353 20274 interpreter_util.cc:1206] Create Variable MedianIndex locally, which pointer is 0x476e0d10 type is 7
+1901: I0815 07:53:41.821360 20274 scope.cc:202] Create variable Out
+1901: I0815 07:53:41.821369 20274 interpreter_util.cc:1206] Create Variable Out locally, which pointer is 0x476e0040 type is 7
+1901: I0815 07:53:41.821373 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:41.821377 20274 interpreter_util.cc:1206] Create Variable X locally, which pointer is 0x476e0a40 type is 7
+1901: I0815 07:53:41.821380 20274 interpreter_util.cc:1201] Create Variable feed global, which pointer is 0x475b0c00 type is 9
+1901: I0815 07:53:41.821385 20274 interpreter_util.cc:1201] Create Variable fetch global, which pointer is 0x475b19b0 type is 10
+1901: I0815 07:53:41.821462 20274 interpreter_util.cc:594] Static build: 0
+1901: I0815 07:53:41.821467 20274 conditional_block_op_helper.cc:105] Found conditional_block op num: 0, conditional_block_grad op num: 0
+1901: I0815 07:53:41.821471 20274 pylayer_op_helper.cc:103] Found pylayer op num: 0, pylayer_grad op num: 0
+1901: I0815 07:53:41.821475 20274 while_op_helper.cc:154] Found while op num: 0, while grad op num: 0
+1901: I0815 07:53:41.821537 20274 operator.cc:2295] op type:feed, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.821553 20274 interpreter_util.cc:844] feed : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.821625 20274 operator.cc:2295] op type:nanmedian, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.821631 20274 interpreter_util.cc:844] nanmedian : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.821650 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: nanmedian; inputs: X; attributes: axis, keepdim, mode; outputs: Out, MedianIndex
+1901: I0815 07:53:41.822222 20274 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.822234 20274 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.822252 20274 scope.cc:202] Create variable Out_device_Place(gpu:0)_Place(cpu)
+1901: I0815 07:53:41.822257 20274 data_transfer.cc:396] Create Variable Out_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x476e5260Variable Type 7
+1901: I0815 07:53:41.822275 20274 data_transfer.cc:439] Insert memcpy_d2h with Out(Place(gpu:0)) -> Out_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
+1901: I0815 07:53:41.822294 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.822326 20274 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[float]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.822340 20274 tensor_utils.cc:57] TensorCopy 1, 1 from Place(gpu:0) to Place(cpu)
+1901: I0815 07:53:41.822382 20274 data_transfer.cc:232] Run memcpy_d2h done.
+1901: I0815 07:53:41.822404 20274 fetch_v2_op.cc:138] Fetch variable Out_device_Place(gpu:0)_Place(cpu)'s 0 column.
+1901: I0815 07:53:41.822448 20274 operator.cc:2295] op type:fetch_v2, expected_kernel_key:{data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.822454 20274 interpreter_util.cc:844] fetch_v2 : finally selected kernel_key: {data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(cpu)]; library_type[PLAIN]}
+1901: I0815 07:53:41.822468 20274 scope.cc:202] Create variable MedianIndex_device_Place(gpu:0)_Place(cpu)
+1901: I0815 07:53:41.822472 20274 data_transfer.cc:396] Create Variable MedianIndex_device_Place(gpu:0)_Place(cpu) locally, which pointer is 0x476e5280Variable Type 7
+1901: I0815 07:53:41.822484 20274 data_transfer.cc:439] Insert memcpy_d2h with MedianIndex(Place(gpu:0)) -> MedianIndex_device_Place(gpu:0)_Place(cpu)(Place(cpu)).
+1901: I0815 07:53:41.822494 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.822508 20274 operator.cc:2295] op type:memcpy_d2h, expected_kernel_key:{data_type[int64_t]; data_layout[Undefined(AnyLayout)]; place[Place(gpu:0)]; library_type[PLAIN]}
+1901: I0815 07:53:41.822520 20274 tensor_utils.cc:57] TensorCopy 1, 1, 2 from Place(gpu:0) to Place(cpu)
+1901: I0815 07:53:41.822548 20274 data_transfer.cc:232] Run memcpy_d2h done.
+1901: I0815 07:53:41.822564 20274 fetch_v2_op.cc:138] Fetch variable MedianIndex_device_Place(gpu:0)_Place(cpu)'s 1 column.
+1901: I0815 07:53:41.822839 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.822870 20274 infershape_utils.cc:546] BuildInferMetaContext: op kernel signature - Kernel Signature - name: memcpy_d2h; inputs: X; attributes: dst_place_type; outputs: Out
+1901: I0815 07:53:41.991536 20274 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1a9cc340 for it.
+1901: I0815 07:53:41.992007 20274 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a91b780 for it.
+1901: I0815 07:53:41.992077 20274 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x2498bb0 for it.
+1901: I0815 07:53:41.992817 20274 dygraph_functions.cc:54355] Running AD API: nanmedian
+1901: I0815 07:53:41.992874 20274 dygraph_functions.cc:54415] { Input: [ 
 1901: ( x , [[ Not specified tensor log level ]]), ]} 
-1901: I0815 07:39:08.641332  9730 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1a266690 for it.
-1901: I0815 07:39:08.641485  9730 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a2f8f50 for it.
-1901: I0815 07:39:08.641541  9730 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x1a3d9140 for it.
-1901: I0815 07:39:08.642731  9730 dygraph_functions.cc:54355] Running AD API: nanmedian
-1901: I0815 07:39:08.642769  9730 dygraph_functions.cc:54415] { Input: [ 
+1901: I0815 07:53:41.994210 20274 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1a9cc340 for it.
+1901: I0815 07:53:41.994441 20274 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x2498bb0 for it.
+1901: I0815 07:53:41.994506 20274 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x1a91b780 for it.
+1901: I0815 07:53:41.995756 20274 dygraph_functions.cc:54355] Running AD API: nanmedian
+1901: I0815 07:53:41.995805 20274 dygraph_functions.cc:54415] { Input: [ 
 1901: ( x , [[ Not specified tensor log level ]]), ]} 
-1901: I0815 07:39:08.645180  9730 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1a266690 for it.
-1901: I0815 07:39:08.645346  9730 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a3d9140 for it.
-1901: I0815 07:39:08.645398  9730 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x1a2f8f50 for it.
+1901: I0815 07:53:41.998447 20274 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1a9cc340 for it.
+1901: I0815 07:53:41.998618 20274 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a91b780 for it.
+1901: I0815 07:53:41.998668 20274 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x2498bb0 for it.
 1901: IR before lowering = {
 1901:     (%0) = "pd_op.data" () {dtype:(pd_op.DataType)float16,name:"X",place:(pd_op.Place)Place(undefined:0),shape:(pd_op.IntArray)[100,100],stop_gradient:[true]} : () -> builtin.tensor<100x100xf16>
 1901:     (%1, %2) = "pd_op.nanmedian" (%0) {axis:(pd_op.IntArray)[],keepdim:false,mode:"avg",stop_gradient:[true,true]} : (builtin.tensor<100x100xf16>) -> builtin.tensor<f16>, builtin.tensor<2xi64>
@@ -530,16 +531,16 @@ test 1901
 1901:     (%5) = "fetch(phi_kernel)" (%4) {col:(Int32)0,kernel_key:<backend:CPU|layout:Undefined(AnyLayout)|dtype:float16>,kernel_name:"fetch",name:"fetch0",op_name:"pd_op.fetch",persistable:[true],stop_gradient:[true]} : (cpu_tensor<f16>) -> cpu_tensor<f16>
 1901: }
 1901: 
-1901: I0815 07:39:08.648804  9730 pir_interpreter.cc:161] PirInterpreter(): 0x4735b140 on Place(gpu:0)
-1901: I0815 07:39:08.648844  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.648867  9730 scope.cc:202] Create variable 0x4735b1401723707548648831606_inner_var_1
-1901: I0815 07:39:08.648880  9730 scope.cc:202] Create variable 0x4735b1401723707548648831606_inner_var_2
-1901: I0815 07:39:08.648890  9730 scope.cc:202] Create variable 0x4735b1401723707548648831606_inner_var_3
-1901: I0815 07:39:08.648898  9730 scope.cc:202] Create variable 0x4735b1401723707548648831606_inner_var_4
-1901: I0815 07:39:08.648910  9730 scope.cc:202] Create variable fetch0@fetch
-1901: I0815 07:39:08.649291  9730 feed_fetch_method.cc:53] SetFeedVariable name=X index=0
-1901: I0815 07:39:08.649317  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.649323  9730 feed_fetch_method.cc:58] Reset X to phi::DenseTensor
+1901: I0815 07:53:42.002184 20274 pir_interpreter.cc:161] PirInterpreter(): 0x475b7600 on Place(gpu:0)
+1901: I0815 07:53:42.002252 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:42.002276 20274 scope.cc:202] Create variable 0x475b76001723708422002241666_inner_var_1
+1901: I0815 07:53:42.002285 20274 scope.cc:202] Create variable 0x475b76001723708422002241666_inner_var_2
+1901: I0815 07:53:42.002293 20274 scope.cc:202] Create variable 0x475b76001723708422002241666_inner_var_3
+1901: I0815 07:53:42.002414 20274 scope.cc:202] Create variable 0x475b76001723708422002241666_inner_var_4
+1901: I0815 07:53:42.002426 20274 scope.cc:202] Create variable fetch0@fetch
+1901: I0815 07:53:42.002859 20274 feed_fetch_method.cc:53] SetFeedVariable name=X index=0
+1901: I0815 07:53:42.002871 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:42.002875 20274 feed_fetch_method.cc:58] Reset X to phi::DenseTensor
 1901: ======================== The network executed by pir interpreter ========================
 1901: {
 1901:     (%0) = "data(phi_kernel)" () {dtype:(pd_op.DataType)float16,kernel_key:<backend:Undefined|layout:Undefined(AnyLayout)|dtype:float16>,kernel_name:"data",name:"X",op_name:"pd_op.data",place:(pd_op.Place)Place(undefined:0),shape:(pd_op.IntArray)[100,100],stop_gradient:[true]} : () -> undefined_tensor<100x100xf16>
@@ -556,12 +557,12 @@ test 1901
 1901: 2: ( 4 )  = pd_op.memcpy_d2h ( 2 ) 
 1901: 3: ( 5 )  = pd_op.fetch ( 4 ) 
 1901: ---------------------------var_id -> var_name -> variable*---------------------------
-1901: 0 -> X -> 0x4735fa80
-1901: 1 -> 0x4735b1401723707548648831606_inner_var_1 -> 0x47305950
-1901: 2 -> 0x4735b1401723707548648831606_inner_var_2 -> 0x44e97ec0
-1901: 3 -> 0x4735b1401723707548648831606_inner_var_3 -> 0x44f55d00
-1901: 4 -> 0x4735b1401723707548648831606_inner_var_4 -> 0x473068c0
-1901: 5 -> fetch0@fetch -> 0x47307250
+1901: 0 -> X -> 0x476e0980
+1901: 1 -> 0x475b76001723708422002241666_inner_var_1 -> 0x475b95f0
+1901: 2 -> 0x475b76001723708422002241666_inner_var_2 -> 0x453e7690
+1901: 3 -> 0x475b76001723708422002241666_inner_var_3 -> 0x47589160
+1901: 4 -> 0x475b76001723708422002241666_inner_var_4 -> 0x475c12c0
+1901: 5 -> fetch0@fetch -> 0x4526d060
 1901: 
 1901: 
 1901: ======================= The dependency of all instruction ========================
@@ -578,43 +579,43 @@ test 1901
 1901: 1 downstreams: 2[pd_op.memcpy_d2h]->
 1901: 2 downstreams: 3[pd_op.fetch]->
 1901: 3 downstreams: 
-1901: I0815 07:39:08.650019  9774 nonblocking_threadpool.h:251] GarbageCollector_thread_0 started 
-1901: I0815 07:39:08.650178  9775 nonblocking_threadpool.h:251] HostTasks_thread_0 started 
-1901: I0815 07:39:08.650213  9776 nonblocking_threadpool.h:251] HostTasks_thread_1 started 
-1901: I0815 07:39:08.650264  9777 nonblocking_threadpool.h:251] HostTasks_thread_2 started 
-1901: I0815 07:39:08.650306  9778 nonblocking_threadpool.h:251] HostTasks_thread_3 started 
-1901: I0815 07:39:08.650390  9779 nonblocking_threadpool.h:251] DeviceKernelLaunch_thread_0 started 
-1901: I0815 07:39:08.650435  9779 pir_interpreter.cc:1876] 
+1901: I0815 07:53:42.004351 20322 nonblocking_threadpool.h:251] HostTasks_thread_3 started 
+1901: I0815 07:53:42.004355 20319 nonblocking_threadpool.h:251] HostTasks_thread_0 started 
+1901: I0815 07:53:42.004352 20318 nonblocking_threadpool.h:251] GarbageCollector_thread_0 started 
+1901: I0815 07:53:42.004356 20323 nonblocking_threadpool.h:251] DeviceKernelLaunch_thread_0 started 
+1901: I0815 07:53:42.004362 20320 nonblocking_threadpool.h:251] HostTasks_thread_1 started 
+1901: I0815 07:53:42.009377 20323 pir_interpreter.cc:1876] 
 1901: begin: RunInstructionBase OP id:0 name:pd_op.shadow_feed type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x4735b1401723707548648831606_inner_var_1:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.650482  9779 pir_interpreter.cc:1916] 
+1901: Before: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x475b76001723708422002241666_inner_var_1:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.009431 20323 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:0 name:pd_op.shadow_feed type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x4735b1401723707548648831606_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}.
-1901: I0815 07:39:08.650521  9779 pir_interpreter.cc:1876] 
+1901: After: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x475b76001723708422002241666_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}.
+1901: I0815 07:53:42.009474 20323 pir_interpreter.cc:1876] 
 1901: begin: RunInstructionBase OP id:1 name:pd_op.nanmedian type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x4735b1401723707548648831606_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x4735b1401723707548648831606_inner_var_3:[dtype=;place=;dim=;lod={};, 0x4735b1401723707548648831606_inner_var_2:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.651021  9779 pir_interpreter.cc:1916] 
+1901: Before: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x475b76001723708422002241666_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x475b76001723708422002241666_inner_var_3:[dtype=;place=;dim=;lod={};, 0x475b76001723708422002241666_inner_var_2:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.009999 20323 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:1 name:pd_op.nanmedian type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x4735b1401723707548648831606_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x4735b1401723707548648831606_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};, 0x4735b1401723707548648831606_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
-1901: I0815 07:39:08.651116  9778 pir_interpreter.cc:1876] 
-1901: begin: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_3
-1901: Before: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x4735b1401723707548648831606_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x4735b1401723707548648831606_inner_var_4:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.651161  9778 tensor_utils.cc:57] TensorCopy  from Place(gpu:0) to Place(cpu)
-1901: I0815 07:39:08.651229  9778 pir_interpreter.cc:1916] 
-1901: done: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_3
-1901: After: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x4735b1401723707548648831606_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x4735b1401723707548648831606_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
-1901: I0815 07:39:08.651263  9778 pir_interpreter.cc:1876] 
-1901: begin: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_3
-1901: Before: Place(cpu) Op(pd_op.fetch), inputs:{0x4735b1401723707548648831606_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.651283  9778 tensor_utils.cc:57] TensorCopy  from Place(cpu) to Place(cpu)
-1901: I0815 07:39:08.651295  9778 pir_interpreter.cc:1916] 
-1901: done: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_3
-1901: After: Place(cpu) Op(pd_op.fetch), inputs:{0x4735b1401723707548648831606_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
-1901: I0815 07:39:08.651330  9730 pir_interpreter.cc:1766] main_thread_blocker_(0x4735b2b0) got event_name: TaskCompletion
-1901: I0815 07:39:08.651353  9730 tensor_util.cc:48] TensorCopy  from Place(cpu) to Place(cpu)
-1901: I0815 07:39:08.651867  9730 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1a2f8f50 for it.
-1901: I0815 07:39:08.652009  9730 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a3d9140 for it.
-1901: I0815 07:39:08.652052  9730 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x1a266690 for it.
+1901: After: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x475b76001723708422002241666_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x475b76001723708422002241666_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};, 0x475b76001723708422002241666_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
+1901: I0815 07:53:42.010108 20320 pir_interpreter.cc:1876] 
+1901: begin: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_1
+1901: Before: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x475b76001723708422002241666_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x475b76001723708422002241666_inner_var_4:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.010130 20320 tensor_utils.cc:57] TensorCopy  from Place(gpu:0) to Place(cpu)
+1901: I0815 07:53:42.010185 20320 pir_interpreter.cc:1916] 
+1901: done: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_1
+1901: After: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x475b76001723708422002241666_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x475b76001723708422002241666_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
+1901: I0815 07:53:42.010207 20320 pir_interpreter.cc:1876] 
+1901: begin: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_1
+1901: Before: Place(cpu) Op(pd_op.fetch), inputs:{0x475b76001723708422002241666_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.010224 20320 tensor_utils.cc:57] TensorCopy  from Place(cpu) to Place(cpu)
+1901: I0815 07:53:42.010236 20320 pir_interpreter.cc:1916] 
+1901: done: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_1
+1901: After: Place(cpu) Op(pd_op.fetch), inputs:{0x475b76001723708422002241666_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
+1901: I0815 07:53:42.010290 20274 pir_interpreter.cc:1766] main_thread_blocker_(0x475b7770) got event_name: TaskCompletion
+1901: I0815 07:53:42.004352 20321 nonblocking_threadpool.h:251] HostTasks_thread_2 started 
+1901: I0815 07:53:42.010313 20274 tensor_util.cc:48] TensorCopy  from Place(cpu) to Place(cpu)
+1901: I0815 07:53:42.011072 20274 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x2498bb0 for it.
+1901: I0815 07:53:42.011240 20274 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a91b780 for it.
+1901: I0815 07:53:42.011287 20274 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x1a9cc340 for it.
 1901: IR before lowering = {
 1901:     (%0) = "pd_op.data" () {dtype:(pd_op.DataType)float16,name:"X",place:(pd_op.Place)Place(undefined:0),shape:(pd_op.IntArray)[100,100],stop_gradient:[true]} : () -> builtin.tensor<100x100xf16>
 1901:     (%1, %2) = "pd_op.nanmedian" (%0) {axis:(pd_op.IntArray)[],keepdim:false,mode:"avg",stop_gradient:[true,true]} : (builtin.tensor<100x100xf16>) -> builtin.tensor<f16>, builtin.tensor<2xi64>
@@ -629,16 +630,16 @@ test 1901
 1901:     (%5) = "fetch(phi_kernel)" (%4) {col:(Int32)0,kernel_key:<backend:CPU|layout:Undefined(AnyLayout)|dtype:float16>,kernel_name:"fetch",name:"fetch0",op_name:"pd_op.fetch",persistable:[true],stop_gradient:[true]} : (cpu_tensor<f16>) -> cpu_tensor<f16>
 1901: }
 1901: 
-1901: I0815 07:39:08.654172  9730 pir_interpreter.cc:161] PirInterpreter(): 0x1a479770 on Place(gpu:0)
-1901: I0815 07:39:08.654197  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.654213  9730 scope.cc:202] Create variable 0x1a4797701723707548654191693_inner_var_1
-1901: I0815 07:39:08.654222  9730 scope.cc:202] Create variable 0x1a4797701723707548654191693_inner_var_2
-1901: I0815 07:39:08.654229  9730 scope.cc:202] Create variable 0x1a4797701723707548654191693_inner_var_3
-1901: I0815 07:39:08.654238  9730 scope.cc:202] Create variable 0x1a4797701723707548654191693_inner_var_4
-1901: I0815 07:39:08.654245  9730 scope.cc:202] Create variable fetch0@fetch
-1901: I0815 07:39:08.654513  9730 feed_fetch_method.cc:53] SetFeedVariable name=X index=0
-1901: I0815 07:39:08.654526  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.654531  9730 feed_fetch_method.cc:58] Reset X to phi::DenseTensor
+1901: I0815 07:53:42.014065 20274 pir_interpreter.cc:161] PirInterpreter(): 0x1a9cee80 on Place(gpu:0)
+1901: I0815 07:53:42.014101 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:42.014119 20274 scope.cc:202] Create variable 0x1a9cee801723708422014089553_inner_var_1
+1901: I0815 07:53:42.014127 20274 scope.cc:202] Create variable 0x1a9cee801723708422014089553_inner_var_2
+1901: I0815 07:53:42.014134 20274 scope.cc:202] Create variable 0x1a9cee801723708422014089553_inner_var_3
+1901: I0815 07:53:42.014140 20274 scope.cc:202] Create variable 0x1a9cee801723708422014089553_inner_var_4
+1901: I0815 07:53:42.014148 20274 scope.cc:202] Create variable fetch0@fetch
+1901: I0815 07:53:42.014493 20274 feed_fetch_method.cc:53] SetFeedVariable name=X index=0
+1901: I0815 07:53:42.014504 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:42.014508 20274 feed_fetch_method.cc:58] Reset X to phi::DenseTensor
 1901: ======================== The network executed by pir interpreter ========================
 1901: {
 1901:     (%0) = "data(phi_kernel)" () {dtype:(pd_op.DataType)float16,kernel_key:<backend:Undefined|layout:Undefined(AnyLayout)|dtype:float16>,kernel_name:"data",name:"X",op_name:"pd_op.data",place:(pd_op.Place)Place(undefined:0),shape:(pd_op.IntArray)[100,100],stop_gradient:[true]} : () -> undefined_tensor<100x100xf16>
@@ -655,12 +656,12 @@ test 1901
 1901: 2: ( 4 )  = pd_op.memcpy_d2h ( 2 ) 
 1901: 3: ( 5 )  = pd_op.fetch ( 4 ) 
 1901: ---------------------------var_id -> var_name -> variable*---------------------------
-1901: 0 -> X -> 0x4733a560
-1901: 1 -> 0x1a4797701723707548654191693_inner_var_1 -> 0x4733a5a0
-1901: 2 -> 0x1a4797701723707548654191693_inner_var_2 -> 0x4735cd80
-1901: 3 -> 0x1a4797701723707548654191693_inner_var_3 -> 0x47365f30
-1901: 4 -> 0x1a4797701723707548654191693_inner_var_4 -> 0x47335cf0
-1901: 5 -> fetch0@fetch -> 0x473279c0
+1901: 0 -> X -> 0x47590520
+1901: 1 -> 0x1a9cee801723708422014089553_inner_var_1 -> 0x475905a0
+1901: 2 -> 0x1a9cee801723708422014089553_inner_var_2 -> 0x475b0a20
+1901: 3 -> 0x1a9cee801723708422014089553_inner_var_3 -> 0x4477c650
+1901: 4 -> 0x1a9cee801723708422014089553_inner_var_4 -> 0x476b88f0
+1901: 5 -> fetch0@fetch -> 0x1a9cf5f0
 1901: 
 1901: 
 1901: ======================= The dependency of all instruction ========================
@@ -677,43 +678,42 @@ test 1901
 1901: 1 downstreams: 2[pd_op.memcpy_d2h]->
 1901: 2 downstreams: 3[pd_op.fetch]->
 1901: 3 downstreams: 
-1901: I0815 07:39:08.655066  9780 nonblocking_threadpool.h:251] GarbageCollector_thread_0 started 
-1901: I0815 07:39:08.655318  9781 nonblocking_threadpool.h:251] HostTasks_thread_0 started 
-1901: I0815 07:39:08.655355  9782 nonblocking_threadpool.h:251] HostTasks_thread_1 started 
-1901: I0815 07:39:08.655372  9783 nonblocking_threadpool.h:251] HostTasks_thread_2 started 
-1901: I0815 07:39:08.655495  9785 nonblocking_threadpool.h:251] DeviceKernelLaunch_thread_0 started 
-1901: I0815 07:39:08.655500  9784 nonblocking_threadpool.h:251] HostTasks_thread_3 started 
-1901: I0815 07:39:08.655530  9785 pir_interpreter.cc:1876] 
+1901: I0815 07:53:42.027372 20325 nonblocking_threadpool.h:251] HostTasks_thread_0 started 
+1901: I0815 07:53:42.027482 20326 nonblocking_threadpool.h:251] HostTasks_thread_1 started 
+1901: I0815 07:53:42.029343 20324 nonblocking_threadpool.h:251] GarbageCollector_thread_0 started 
+1901: I0815 07:53:42.047366 20329 nonblocking_threadpool.h:251] DeviceKernelLaunch_thread_0 started 
+1901: I0815 07:53:42.047483 20329 pir_interpreter.cc:1876] 
 1901: begin: RunInstructionBase OP id:0 name:pd_op.shadow_feed type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x1a4797701723707548654191693_inner_var_1:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.655556  9785 pir_interpreter.cc:1916] 
+1901: Before: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x1a9cee801723708422014089553_inner_var_1:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.047565 20329 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:0 name:pd_op.shadow_feed type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x1a4797701723707548654191693_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}.
-1901: I0815 07:39:08.655583  9785 pir_interpreter.cc:1876] 
+1901: After: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x1a9cee801723708422014089553_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}.
+1901: I0815 07:53:42.047631 20329 pir_interpreter.cc:1876] 
 1901: begin: RunInstructionBase OP id:1 name:pd_op.nanmedian type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x1a4797701723707548654191693_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x1a4797701723707548654191693_inner_var_3:[dtype=;place=;dim=;lod={};, 0x1a4797701723707548654191693_inner_var_2:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.655998  9785 pir_interpreter.cc:1916] 
+1901: Before: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x1a9cee801723708422014089553_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x1a9cee801723708422014089553_inner_var_3:[dtype=;place=;dim=;lod={};, 0x1a9cee801723708422014089553_inner_var_2:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.048195 20329 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:1 name:pd_op.nanmedian type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x1a4797701723707548654191693_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x1a4797701723707548654191693_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};, 0x1a4797701723707548654191693_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
-1901: I0815 07:39:08.656059  9784 pir_interpreter.cc:1876] 
-1901: begin: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_3
-1901: Before: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x1a4797701723707548654191693_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x1a4797701723707548654191693_inner_var_4:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.656085  9784 tensor_utils.cc:57] TensorCopy  from Place(gpu:0) to Place(cpu)
-1901: I0815 07:39:08.656137  9784 pir_interpreter.cc:1916] 
-1901: done: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_3
-1901: After: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x1a4797701723707548654191693_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x1a4797701723707548654191693_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
-1901: I0815 07:39:08.656164  9784 pir_interpreter.cc:1876] 
-1901: begin: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_3
-1901: Before: Place(cpu) Op(pd_op.fetch), inputs:{0x1a4797701723707548654191693_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.656183  9784 tensor_utils.cc:57] TensorCopy  from Place(cpu) to Place(cpu)
-1901: I0815 07:39:08.656193  9784 pir_interpreter.cc:1916] 
-1901: done: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_3
-1901: After: Place(cpu) Op(pd_op.fetch), inputs:{0x1a4797701723707548654191693_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
-1901: I0815 07:39:08.656222  9730 pir_interpreter.cc:1766] main_thread_blocker_(0x1a4798e0) got event_name: TaskCompletion
-1901: I0815 07:39:08.656242  9730 tensor_util.cc:48] TensorCopy  from Place(cpu) to Place(cpu)
-1901: I0815 07:39:08.657527  9730 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1a266690 for it.
-1901: I0815 07:39:08.657696  9730 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a3d9140 for it.
-1901: I0815 07:39:08.657747  9730 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x1a2f8f50 for it.
+1901: After: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x1a9cee801723708422014089553_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x1a9cee801723708422014089553_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};, 0x1a9cee801723708422014089553_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
+1901: I0815 07:53:42.048342 20326 pir_interpreter.cc:1876] 
+1901: begin: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_1
+1901: Before: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x1a9cee801723708422014089553_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x1a9cee801723708422014089553_inner_var_4:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.048388 20326 tensor_utils.cc:57] TensorCopy  from Place(gpu:0) to Place(cpu)
+1901: I0815 07:53:42.048457 20326 pir_interpreter.cc:1916] 
+1901: done: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_1
+1901: After: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x1a9cee801723708422014089553_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x1a9cee801723708422014089553_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
+1901: I0815 07:53:42.048501 20326 pir_interpreter.cc:1876] 
+1901: begin: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_1
+1901: Before: Place(cpu) Op(pd_op.fetch), inputs:{0x1a9cee801723708422014089553_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.048540 20326 tensor_utils.cc:57] TensorCopy  from Place(cpu) to Place(cpu)
+1901: I0815 07:53:42.048563 20326 pir_interpreter.cc:1916] 
+1901: done: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_1
+1901: After: Place(cpu) Op(pd_op.fetch), inputs:{0x1a9cee801723708422014089553_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
+1901: I0815 07:53:42.048641 20274 pir_interpreter.cc:1766] main_thread_blocker_(0x1a9ceff0) got event_name: TaskCompletion
+1901: I0815 07:53:42.048668 20274 tensor_util.cc:48] TensorCopy  from Place(cpu) to Place(cpu)
+1901: I0815 07:53:42.050212 20274 eager.cc:133] Tensor(generated_tensor_0) have not GradNode, add GradNodeAccumulation0x1a9cc340 for it.
+1901: I0815 07:53:42.050503 20274 eager.cc:133] Tensor(Out_out_0) have not GradNode, add GradNodeAccumulation0x1a91b780 for it.
+1901: I0815 07:53:42.050585 20274 eager.cc:133] Tensor(MedianIndex_out_0) have not GradNode, add GradNodeAccumulation0x2498bb0 for it.
+1901: I0815 07:53:42.051322 20328 nonblocking_threadpool.h:251] HostTasks_thread_3 started 
 1901: IR before lowering = {
 1901:     (%0) = "pd_op.data" () {dtype:(pd_op.DataType)float16,name:"X",place:(pd_op.Place)Place(undefined:0),shape:(pd_op.IntArray)[100,100],stop_gradient:[true]} : () -> builtin.tensor<100x100xf16>
 1901:     (%1, %2) = "pd_op.nanmedian" (%0) {axis:(pd_op.IntArray)[],keepdim:false,mode:"avg",stop_gradient:[true,true]} : (builtin.tensor<100x100xf16>) -> builtin.tensor<f16>, builtin.tensor<2xi64>
@@ -728,16 +728,16 @@ test 1901
 1901:     (%5) = "fetch(phi_kernel)" (%4) {col:(Int32)0,kernel_key:<backend:CPU|layout:Undefined(AnyLayout)|dtype:float16>,kernel_name:"fetch",name:"fetch0",op_name:"pd_op.fetch",persistable:[true],stop_gradient:[true]} : (cpu_tensor<f16>) -> cpu_tensor<f16>
 1901: }
 1901: 
-1901: I0815 07:39:08.660236  9730 pir_interpreter.cc:161] PirInterpreter(): 0x47304e30 on Place(gpu:0)
-1901: I0815 07:39:08.660265  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.660284  9730 scope.cc:202] Create variable 0x47304e301723707548660259663_inner_var_1
-1901: I0815 07:39:08.660296  9730 scope.cc:202] Create variable 0x47304e301723707548660259663_inner_var_2
-1901: I0815 07:39:08.660317  9730 scope.cc:202] Create variable 0x47304e301723707548660259663_inner_var_3
-1901: I0815 07:39:08.660328  9730 scope.cc:202] Create variable 0x47304e301723707548660259663_inner_var_4
-1901: I0815 07:39:08.660341  9730 scope.cc:202] Create variable fetch0@fetch
-1901: I0815 07:39:08.660660  9730 feed_fetch_method.cc:53] SetFeedVariable name=X index=0
-1901: I0815 07:39:08.660676  9730 scope.cc:202] Create variable X
-1901: I0815 07:39:08.660679  9730 feed_fetch_method.cc:58] Reset X to phi::DenseTensor
+1901: I0815 07:53:42.053354 20274 pir_interpreter.cc:161] PirInterpreter(): 0x476c1b50 on Place(gpu:0)
+1901: I0815 07:53:42.053390 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:42.053409 20274 scope.cc:202] Create variable 0x476c1b501723708422053379125_inner_var_1
+1901: I0815 07:53:42.053416 20274 scope.cc:202] Create variable 0x476c1b501723708422053379125_inner_var_2
+1901: I0815 07:53:42.053423 20274 scope.cc:202] Create variable 0x476c1b501723708422053379125_inner_var_3
+1901: I0815 07:53:42.053431 20274 scope.cc:202] Create variable 0x476c1b501723708422053379125_inner_var_4
+1901: I0815 07:53:42.053438 20274 scope.cc:202] Create variable fetch0@fetch
+1901: I0815 07:53:42.053777 20274 feed_fetch_method.cc:53] SetFeedVariable name=X index=0
+1901: I0815 07:53:42.053787 20274 scope.cc:202] Create variable X
+1901: I0815 07:53:42.053790 20274 feed_fetch_method.cc:58] Reset X to phi::DenseTensor
 1901: ======================== The network executed by pir interpreter ========================
 1901: {
 1901:     (%0) = "data(phi_kernel)" () {dtype:(pd_op.DataType)float16,kernel_key:<backend:Undefined|layout:Undefined(AnyLayout)|dtype:float16>,kernel_name:"data",name:"X",op_name:"pd_op.data",place:(pd_op.Place)Place(undefined:0),shape:(pd_op.IntArray)[100,100],stop_gradient:[true]} : () -> undefined_tensor<100x100xf16>
@@ -754,12 +754,12 @@ test 1901
 1901: 2: ( 4 )  = pd_op.memcpy_d2h ( 2 ) 
 1901: 3: ( 5 )  = pd_op.fetch ( 4 ) 
 1901: ---------------------------var_id -> var_name -> variable*---------------------------
-1901: 0 -> X -> 0x4730d7e0
-1901: 1 -> 0x47304e301723707548660259663_inner_var_1 -> 0x47332b50
-1901: 2 -> 0x47304e301723707548660259663_inner_var_2 -> 0x47305550
-1901: 3 -> 0x47304e301723707548660259663_inner_var_3 -> 0x1a47a100
-1901: 4 -> 0x47304e301723707548660259663_inner_var_4 -> 0x4730d7a0
-1901: 5 -> fetch0@fetch -> 0x47333600
+1901: 0 -> X -> 0x475afce0
+1901: 1 -> 0x476c1b501723708422053379125_inner_var_1 -> 0x475afd40
+1901: 2 -> 0x476c1b501723708422053379125_inner_var_2 -> 0x475bc260
+1901: 3 -> 0x476c1b501723708422053379125_inner_var_3 -> 0x476c8a10
+1901: 4 -> 0x476c1b501723708422053379125_inner_var_4 -> 0x476c39b0
+1901: 5 -> fetch0@fetch -> 0x4758f130
 1901: 
 1901: 
 1901: ======================= The dependency of all instruction ========================
@@ -776,41 +776,42 @@ test 1901
 1901: 1 downstreams: 2[pd_op.memcpy_d2h]->
 1901: 2 downstreams: 3[pd_op.fetch]->
 1901: 3 downstreams: 
-1901: I0815 07:39:08.661298  9786 nonblocking_threadpool.h:251] GarbageCollector_thread_0 started 
-1901: I0815 07:39:08.661571  9787 nonblocking_threadpool.h:251] HostTasks_thread_0 started 
-1901: I0815 07:39:08.661588  9788 nonblocking_threadpool.h:251] HostTasks_thread_1 started 
-1901: I0815 07:39:08.661669  9789 nonblocking_threadpool.h:251] HostTasks_thread_2 started 
-1901: I0815 07:39:08.661722  9790 nonblocking_threadpool.h:251] HostTasks_thread_3 started 
-1901: I0815 07:39:08.661815  9791 nonblocking_threadpool.h:251] DeviceKernelLaunch_thread_0 started 
-1901: I0815 07:39:08.661857  9791 pir_interpreter.cc:1876] 
+1901: I0815 07:53:42.051326 20327 nonblocking_threadpool.h:251] HostTasks_thread_2 started 
+1901: I0815 07:53:42.061388 20330 nonblocking_threadpool.h:251] GarbageCollector_thread_0 started 
+1901: I0815 07:53:42.061574 20333 nonblocking_threadpool.h:251] HostTasks_thread_2 started 
+1901: I0815 07:53:42.061652 20334 nonblocking_threadpool.h:251] HostTasks_thread_3 started 
+1901: I0815 07:53:42.063355 20332 nonblocking_threadpool.h:251] HostTasks_thread_1 started 
+1901: I0815 07:53:42.064357 20335 nonblocking_threadpool.h:251] DeviceKernelLaunch_thread_0 started 
+1901: I0815 07:53:42.064435 20335 pir_interpreter.cc:1876] 
 1901: begin: RunInstructionBase OP id:0 name:pd_op.shadow_feed type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47304e301723707548660259663_inner_var_1:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.661882  9791 pir_interpreter.cc:1916] 
+1901: Before: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x476c1b501723708422053379125_inner_var_1:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.064500 20335 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:0 name:pd_op.shadow_feed type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47304e301723707548660259663_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}.
-1901: I0815 07:39:08.661909  9791 pir_interpreter.cc:1876] 
+1901: After: Place(gpu:0) Op(pd_op.shadow_feed), inputs:{X:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x476c1b501723708422053379125_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}.
+1901: I0815 07:53:42.064550 20335 pir_interpreter.cc:1876] 
 1901: begin: RunInstructionBase OP id:1 name:pd_op.nanmedian type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: Before: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x47304e301723707548660259663_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47304e301723707548660259663_inner_var_3:[dtype=;place=;dim=;lod={};, 0x47304e301723707548660259663_inner_var_2:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.662336  9791 pir_interpreter.cc:1916] 
+1901: Before: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x476c1b501723708422053379125_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x476c1b501723708422053379125_inner_var_3:[dtype=;place=;dim=;lod={};, 0x476c1b501723708422053379125_inner_var_2:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.065104 20335 pir_interpreter.cc:1916] 
 1901: done: RunInstructionBase OP id:1 name:pd_op.nanmedian type:kGpuAsync runs on DeviceKernelLaunch_thread_0
-1901: After: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x47304e301723707548660259663_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x47304e301723707548660259663_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};, 0x47304e301723707548660259663_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
-1901: I0815 07:39:08.662403  9790 pir_interpreter.cc:1876] 
-1901: begin: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_3
-1901: Before: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x47304e301723707548660259663_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x47304e301723707548660259663_inner_var_4:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.662437  9790 tensor_utils.cc:57] TensorCopy  from Place(gpu:0) to Place(cpu)
-1901: I0815 07:39:08.662495  9790 pir_interpreter.cc:1916] 
-1901: done: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_3
-1901: After: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x47304e301723707548660259663_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x47304e301723707548660259663_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
-1901: I0815 07:39:08.662526  9790 pir_interpreter.cc:1876] 
-1901: begin: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_3
-1901: Before: Place(cpu) Op(pd_op.fetch), inputs:{0x47304e301723707548660259663_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=;place=;dim=;lod={};]}.
-1901: I0815 07:39:08.662545  9790 tensor_utils.cc:57] TensorCopy  from Place(cpu) to Place(cpu)
-1901: I0815 07:39:08.662559  9790 pir_interpreter.cc:1916] 
-1901: done: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_3
-1901: After: Place(cpu) Op(pd_op.fetch), inputs:{0x47304e301723707548660259663_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
-1901: I0815 07:39:08.662590  9730 pir_interpreter.cc:1766] main_thread_blocker_(0x47304fa0) got event_name: TaskCompletion
-1901: I0815 07:39:08.662608  9730 tensor_util.cc:48] TensorCopy  from Place(cpu) to Place(cpu)
-1901: I0815 07:39:08.662756  9730 shape_analysis.cc:506] InferShapeOrDataForValue,  defining_op: pd_op.fetch id:48
+1901: After: Place(gpu:0) Op(pd_op.nanmedian), inputs:{0x476c1b501723708422053379125_inner_var_1:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=100, 100;lod={};]}, outputs:{0x476c1b501723708422053379125_inner_var_3:[dtype=int64_t;place=Place(gpu:0);dim=2;lod={};, 0x476c1b501723708422053379125_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}.
+1901: I0815 07:53:42.065346 20331 nonblocking_threadpool.h:251] HostTasks_thread_0 started 
+1901: I0815 07:53:42.065428 20331 pir_interpreter.cc:1876] 
+1901: begin: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_0
+1901: Before: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x476c1b501723708422053379125_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x476c1b501723708422053379125_inner_var_4:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.065471 20331 tensor_utils.cc:57] TensorCopy  from Place(gpu:0) to Place(cpu)
+1901: I0815 07:53:42.065547 20331 pir_interpreter.cc:1916] 
+1901: done: RunInstructionBase OP id:2 name:pd_op.memcpy_d2h type:kGpuSync runs on HostTasks_thread_0
+1901: After: Place(gpu:0) Op(pd_op.memcpy_d2h), inputs:{0x476c1b501723708422053379125_inner_var_2:[dtype=::phi::dtype::float16;place=Place(gpu:0);dim=;lod={};]}, outputs:{0x476c1b501723708422053379125_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
+1901: I0815 07:53:42.065585 20331 pir_interpreter.cc:1876] 
+1901: begin: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_0
+1901: Before: Place(cpu) Op(pd_op.fetch), inputs:{0x476c1b501723708422053379125_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=;place=;dim=;lod={};]}.
+1901: I0815 07:53:42.065606 20331 tensor_utils.cc:57] TensorCopy  from Place(cpu) to Place(cpu)
+1901: I0815 07:53:42.065621 20331 pir_interpreter.cc:1916] 
+1901: done: RunInstructionBase OP id:3 name:pd_op.fetch type:kCpuSync runs on HostTasks_thread_0
+1901: After: Place(cpu) Op(pd_op.fetch), inputs:{0x476c1b501723708422053379125_inner_var_4:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}, outputs:{fetch0@fetch:[dtype=::phi::dtype::float16;place=Place(cpu);dim=;lod={};]}.
+1901: I0815 07:53:42.065706 20274 pir_interpreter.cc:1766] main_thread_blocker_(0x476c1cc0) got event_name: TaskCompletion
+1901: I0815 07:53:42.065735 20274 tensor_util.cc:48] TensorCopy  from Place(cpu) to Place(cpu)
+1901: I0815 07:53:42.066012 20274 shape_analysis.cc:506] InferShapeOrDataForValue,  defining_op: pd_op.fetch id:48
 1901: 
 1901: 
 1901: --------------------------------------
@@ -825,15 +826,15 @@ test 1901
 1901: Error Message Summary:
 1901: ----------------------
 1901: FatalError: `Segmentation fault` is detected by the operating system.
-1901:   [TimeInfo: *** Aborted at 1723707548 (unix time) try "date -d @1723707548" if you are using GNU date ***]
-1901:   [SignalInfo: *** SIGSEGV (@0x10) received by PID 9730 (TID 0x7f3550305740) from PID 16 ***]
+1901:   [TimeInfo: *** Aborted at 1723708422 (unix time) try "date -d @1723708422" if you are using GNU date ***]
+1901:   [SignalInfo: *** SIGSEGV (@0x10) received by PID 20274 (TID 0x7f364dc71740) from PID 16 ***]
 1901: 
 1901: Segmentation fault
-1/1 Test #1901: test_nanmedian ...................***Failed   17.13 sec
+1/1 Test #1901: test_nanmedian ...................***Failed   20.40 sec
 
 0% tests passed, 1 tests failed out of 1
 
-Total Test time (real) =  17.31 sec
+Total Test time (real) =  20.59 sec
 
 The following tests FAILED:
 	1901 - test_nanmedian (Failed)
